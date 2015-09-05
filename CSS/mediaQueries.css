@@ -20,7 +20,7 @@
     top: -5em;
   }
   main {
-    height: 70em;
+    height: 80em;
   }
   .skills__graph {
     display: none;
@@ -53,6 +53,9 @@
     left: 0;
     top: 2em;
     z-index: 15;
+  }
+  main {
+    height: 30em;
   }
   .mobile--chart {
     display: none;

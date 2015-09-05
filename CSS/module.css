@@ -3,6 +3,7 @@ header {
   background-image: url("../images/sigil-regularAngles.gif");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 22em, 22em;
 }
 header h1 {
   font-family: "Pathway Gothic One";
