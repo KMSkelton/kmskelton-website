@@ -1,0 +1,89 @@
+@media screen and (min-width: 350px) {
+  .img1 {
+    position: relative;
+    left: 20%;
+    top: 2em;
+  }
+  .img2 {
+    position: relative;
+    left: 20%;
+    top: -1em;
+  }
+  .img3 {
+    position: relative;
+    left: 20%;
+    top: -3em;
+  }
+  .img4 {
+    position: relative;
+    left: 20%;
+    top: -5em;
+  }
+  main {
+    height: 70em;
+  }
+  .skills__graph {
+    display: none;
+  }
+  .mobile--chart {
+    display: block;
+  }
+}
+@media screen and (min-width: 700px) {
+  .img1 {
+    position: relative;
+    left: 30%;
+    top: 3em;
+    z-index: 5;
+  }
+  .img2 {
+    position: relative;
+    left: 25%;
+    top: 1em;
+    z-index: 20;
+  }
+  .img3 {
+    position: relative;
+    left: 0%;
+    top: 5em;
+    z-index: 10;
+  }
+  .img4 {
+    position: relative;
+    left: 0;
+    top: 2em;
+    z-index: 15;
+  }
+  .mobile--chart {
+    display: none;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .img1 {
+    position: relative;
+    left: 30%;
+    top: 3em;
+    z-index: 5;
+  }
+  .img2 {
+    position: relative;
+    left: 25%;
+    top: 1em;
+    z-index: 20;
+  }
+  .img3 {
+    position: relative;
+    left: 0%;
+    top: 5em;
+    z-index: 10;
+  }
+  .img4 {
+    position: relative;
+    left: 0;
+    top: 2em;
+    z-index: 15;
+  }
+  .skills__graph {
+    display: inline-block;
+  }
+}

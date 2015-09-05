@@ -1,0 +1,73 @@
+header {
+  height: 25em;
+}
+header h1 {
+  padding-top: 2.5em;
+}
+main {
+  position: absolute;
+  width: 100%;
+  height: 30em;
+}
+main h2 {
+  text-align: center;
+}
+.disc:hover {
+  z-index: 1000;
+}
+.get {
+  display: none;
+}
+.skills__graph {
+  display: inline-block;
+  position: absolute;
+  left: 27%;
+  margin-top: 30em;
+  height: 50em;
+  width: 50em;
+  overflow: visible;
+}
+
+#diagram {
+  width: 600px;
+  height: 600px;
+}
+
+.container {
+  position: absolute;
+  width: auto;
+  margin-top: 1em;
+  padding: 0.1em;
+}
+.mobile--chart {
+  margin-top: 69em;
+}
+.horizontal .progress-bar {
+  float: left;
+  height: 3em;
+  width: 100%;
+  /*padding: 0.5em 0;*/
+}
+
+.horizontal .progress-track {
+  position: relative;
+  width: 100%;
+  height: 1.5em;
+}
+
+.horizontal .progressFill {
+  position: relative;
+  /*height: 1.5em;*/
+  width: 50%;
+  text-align: center;
+  line-height: 1.5em;
+}
+.mobile--chart h2 {
+  text-align: center;
+}
+h6 {
+  text-align: justify;
+}
+span {
+  display: none;
+}
