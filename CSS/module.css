@@ -1,37 +1,58 @@
-header {
-  background-color: rgba(50, 50, 50, 1);
-  background-image: url("../images/sigil-regularAngles.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 22em, 22em;
-}
-header h1 {
-  font-family: "Pathway Gothic One";
-  text-align: center;
-  color: rgb(100, 100, 100);
-}
-main {
-  background-color: rgba(100, 100, 100, 0.3);
-}
-h2, h6 {
-  font-family: "Playfair Display SC", serif;
-}
-.disc {
-  border-radius: 100%;
-  width: 17em;
-  height: 17em;
-  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-.container {
-  background-color: #898989;
-}
-.horizontal .progress-track {
-  background-color: #deaf5d;
-}
-.horizontal .progressFill {
-  background-color: #435c78;
-  border-top-right-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
-  color: #fff;
-  font-family: "Playfair Display SC", serif;
-}
+  header {
+    background-color: rgba(50, 50, 50, 1);
+    background-image: url("../images/sigil-regularAngles.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22em, 22em;
+  }
+  header h1 {
+    font-family: "Pathway Gothic One";
+    text-align: center;
+    color: rgb(100, 100, 100);
+  }
+  header h2 {
+    color: rgb(120, 120, 120);
+  }
+  #RWDtext {
+    display: none;
+  }
+  #header {
+    display: block;
+  }
+  #header:hover {
+    color: rgb(120, 120, 120);
+  }
+  main {
+    background-color: rgba(100, 100, 100, 0.3);
+  }
+  h2, h6 {
+    font-family: "Playfair Display SC", serif;
+  }
+  .disc {
+    border-radius: 100%;
+    width: 17em;
+    height: 17em;
+    box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .container {
+    background-color: #898989;
+  }
+  .horizontal .progress-track {
+    background-color: #deaf5d;
+  }
+  .horizontal .progressFill {
+    background-color: #435c78;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    color: #fff;
+    font-family: "Playfair Display SC", serif;
+  }
+  footer {
+    background-color: #000;
+  }
+  .icon {
+    color: #435c78
+  }
+  .icon:hover {
+    color: #deaf5d;
+  }

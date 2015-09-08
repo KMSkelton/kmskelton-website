@@ -11,146 +11,152 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/base.css" type="text/css" rel="stylesheet" />
   <link href="css/skeleton.css" type="text/css" rel="stylesheet" />
-  <!-- bxSlider CSS file -->
   <link href="css/module.css" type="text/css" rel="stylesheet" />
   <link href="css/layout.css" type="text/css" rel="stylesheet" />
   <link href="css/mediaQueries.css" type="text/css" rel="stylesheet" />
+  <link href="css/typography.css" type="text/css" rel="stylesheet" />
   <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
   <header>
-    <h1>KRISTOPHER SKELTON</h1>
+    <h1 id="header">KRISTOPHER SKELTON</h1>
+    <h2><div id="RWDtext">Responsive</br> Web</br> Design</br> </div></h2>
   </header>
   <main>
-    <h2> Selected Projects </h2>
-    <a href="http://kmskelton.github.io" target="blank">
-      <img class="disc img1" src="./images/sluvt3-screen.png" alt="south lake union virtual tours logo" />
-    </a>
-    <a href="http://lookingforgame.herokuapp.com" target="blank">
-      <img class="disc img2" src="./images/lfg2-screen.png" alt="looking for game web app logo" />
-    </a>
-    <img class="disc img3" src="./images/YWH.gif" />
-    <img class="disc img4" src="./images/YAH.gif" />
+      <h2> Selected Projects </h2>
+      <a href="http://kmskelton.github.io" target="blank">
+        <img class="disc img1" src="./images/sluvt3-screen.png" alt="south lake union virtual tours logo" />
+      </a>
+      <a href="http://lookingforgame.herokuapp.com" target="blank">
+        <img class="disc img2" src="./images/lfg2-screen.png" alt="looking for game web app logo" />
+      </a>
+      <img class="disc img3" src="./images/YWH.gif" />
+      <img class="disc img4" src="./images/YAH.gif" />
   </main>
-  <section>
-    <div id="diagram" class="skills__graph">
-      <div class="get">
-        <div class="arc">
-          <span class="text">HTML</span>
-          <input type="hidden" class="percent" value="95" />
-          <input type="hidden" class="color" value="#688aa0" />
+    <div class="section--skills__graph">
+      <div id="diagram" class="skills__graph">
+        <div class="get">
+          <div class="arc">
+            <span class="text">HTML</span>
+            <input type="hidden" class="percent" value="95" />
+            <input type="hidden" class="color" value="#688aa0" />
+          </div>
+          <div class="arc">
+            <span class="text">CSS</span>
+            <input type="hidden" class="percent" value="85" />
+            <input type="hidden" class="color" value="#1ecf69" />
+          </div>
+          <div class="arc">
+            <span class="text">SASS</span>
+            <input type="hidden" class="percent" value="55" />
+            <input type="hidden" class="color" value="#585858" />
+          </div>
+          <div class="arc">
+            <span class="text">JavaScript</span>
+            <input type="hidden" class="percent" value="70" />
+            <input type="hidden" class="color" value="#17405a" />
+          </div>
+          <div class="arc">
+            <span class="text">jQuery</span>
+            <input type="hidden" class="percent" value="75" />
+            <input type="hidden" class="color" value="#435c78" />
+          </div>
+          <div class="arc">
+            <span class="text">Angular</span>
+            <input type="hidden" class="percent" value="40" />
+            <input type="hidden" class="color" value="#000" />
+          </div>
+          <div class="arc">
+            <span class="text">Node/Express/Mongo</span>
+            <input type="hidden" class="percent" value="55" />
+            <input type="hidden" class="color" value="#deaf5d" />
+          </div>
         </div>
-        <div class="arc">
-          <span class="text">CSS</span>
-          <input type="hidden" class="percent" value="85" />
-          <input type="hidden" class="color" value="#1ecf69" />
-        </div>
-        <div class="arc">
-          <span class="text">SASS</span>
-          <input type="hidden" class="percent" value="55" />
-          <input type="hidden" class="color" value="#585858" />
-        </div>
-        <div class="arc">
-          <span class="text">JavaScript</span>
-          <input type="hidden" class="percent" value="70" />
-          <input type="hidden" class="color" value="#17405a" />
-        </div>
-        <div class="arc">
-          <span class="text">jQuery</span>
-          <input type="hidden" class="percent" value="75" />
-          <input type="hidden" class="color" value="#435c78" />
-        </div>
-        <div class="arc">
-          <span class="text">Angular</span>
-          <input type="hidden" class="percent" value="25" />
-          <input type="hidden" class="color" value="#000" />
-        </div>
-        <div class="arc">
-          <span class="text">Node/Express/Mongo</span>
-          <input type="hidden" class="percent" value="55" />
-          <input type="hidden" class="color" value="#deaf5d" />
-        </div>
+        <!--closes 'get' class -->
       </div>
-      <!--closes 'get' class -->
+      <!-- closes 'diagram' class -->
     </div>
-    <!-- closes 'diagram' class -->
-  </section>
-  <!-- closes overall chart section -->
-  <section class="mobile--chart">
-    <div class="container horizontal rounded">
-      <h2>Skills</h2>
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="horizontal progressFill">
-            <h6>HTML</h6>
-            <span>95%</span>
+    <!-- closes overall chart section -->
+    <div class="mobile--chart">
+      <div class="container horizontal rounded">
+        <h2>Skills</h2>
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="horizontal progressFill">
+              <h6>HTML</h6>
+              <span class="hide">95%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="progressFill">
+              <h6>CSS</h6>
+              <span class="hide">85%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="progressFill">
+              <h6>SASS</h6>
+              <span class="hide">55%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="progressFill">
+              <h6>JavaScript</h6>
+              <span class="hide">70%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="progressFill">
+              <h6>jQuery</h6>
+              <span class="hide">75%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="progressFill">
+              <h6>Angular</h6>
+              <span class="hide">40%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar horizontal">
+          <div class="progress-track">
+            <div class="progressFill">
+              <h6>Node/Express/Mongo</h6>
+              <span class="hide">55%</span>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="progressFill">
-            <h6>CSS</h6>
-            <span>85%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="progressFill">
-            <h6>SASS</h6>
-            <span>55%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="progressFill">
-            <h6>JavaScript</h6>
-            <span>70%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="progressFill">
-            <h6>jQuery</h6>
-            <span>75%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="progressFill">
-            <h6>Angular</h6>
-            <span>25%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="progress-bar horizontal">
-        <div class="progress-track">
-          <div class="progressFill">
-            <h6>Node/Express/Mongo</h6>
-            <span>55%</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
+    </div> <!-- closes the mobile--chart div above -->
+  <footer>
+    <a href="./contact.html"><span aria-hidden="true" class="icon-envelop icon"></span></a>
+    <a href="https://twitter.com/KM_Skelton" target="_blank"><span class="icon-twitter icon"></span></a>
+    <a href="https://github.com/KMSkelton" target="_blank"><span class="icon-github4 icon"></span></a>
+    <a href="https://www.linkedin.com/in/kristopherskelton" target="_blank"><span class="icon-linkedin icon"></span></a>
+  </footer>
 </body>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/raphaelChart.js"></script>
 <script type="text/javascript" src="js/barChart.js"></script>
-
 
 </html>

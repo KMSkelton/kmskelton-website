@@ -1,13 +1,10 @@
 @font-face {
-font-family: 'Pathway Gothic One', sans-serif, 'Playfair Display SC' serif;
-}
-@font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?cea9jl');
-	src:url('../fonts/icomoon.eot?#iefixcea9jl') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?cea9jl') format('truetype'),
-		url('../fonts/icomoon.woff?cea9jl') format('woff'),
-		url('../fonts/icomoon.svg?cea9jl#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-5eu39v');
+	src:url('fonts/icomoon.eot?#iefix-5eu39v') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?-5eu39v') format('truetype'),
+		url('fonts/icomoon.woff?-5eu39v') format('woff'),
+		url('fonts/icomoon.svg?-5eu39v#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,23 +23,18 @@ font-family: 'Pathway Gothic One', sans-serif, 'Playfair Display SC' serif;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-home:before {
+	content: "\e900";
+}
 .icon-envelop:before {
 	content: "\e945";
-  font-size: 3rem;
 }
 .icon-twitter:before {
 	content: "\ea91";
-  font-size: 3rem;
 }
 .icon-github4:before {
 	content: "\eab4";
-  font-size: 3rem;
 }
 .icon-linkedin:before {
 	content: "\eac8";
-  font-size: 3rem;
-}
-.icon-home:before {
-    content: "\e900";
-		font-size: 3rem;
 }
