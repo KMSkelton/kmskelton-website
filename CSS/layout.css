@@ -9,7 +9,8 @@ header h1 {
 }
 main {
   display: block;
-  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 main h2 {
   text-align: center;
@@ -28,12 +29,24 @@ main h2 {
   overflow: visible;
   margin-left: 30%;
 }
-
+footer {
+  position: relative;
+  display: block;
+}
+.aboutMe {
+  margin: auto;
+  width: 60%;
+}
+.imageDescription {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline;
+}
 #diagram {
   width: 600px;
   height: 600px;
 }
-
 .container {
   width: auto;
   padding: 0.1em;
@@ -47,13 +60,11 @@ main h2 {
   width: 100%;
   /*padding: 0.5em 0;*/
 }
-
 .horizontal .progress-track {
   position: relative;
   width: 100%;
   height: 1.5em;
 }
-
 .horizontal .progressFill {
   position: relative;
   /*height: 1.5em;*/
@@ -70,16 +81,34 @@ h6 {
 .hide {
   display: none;
 }
-footer {
-  height: 3em;
-}
 .icon {
   display: inline-block;
   margin-top: 0.5em;
 }
-.contactForm {
+#contact-area {
   width: 30em;
-  display: block;
   margin: auto;
   margin-top: 2em;
+}
+#contact-area input, #contact-area textarea {
+  margin: auto;
+  border: 0.2em solid #ccc;
+}
+#contact-area textarea {
+  height: 5em;
+}
+#contact-area textarea:focus, #contact-area input:focus {
+  border: 0.2em solid #900;
+}
+#contact-area input.submit-button {
+  margin: auto;
+  display: block;
+  width: 10em;
+}
+label {
+  float: left;
+  text-align: justify;
+  margin-right: 1.5em;
+  width: 10em;
+  font-size: 1.4em;
 }

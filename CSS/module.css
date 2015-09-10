@@ -20,7 +20,10 @@
     display: block;
   }
   #header:hover {
-    color: rgb(120, 120, 120);
+    color: rgb(150, 150, 150);
+  }
+  a {
+    text-decoration: none;
   }
   main {
     background-color: rgba(100, 100, 100, 0.3);
@@ -55,4 +58,12 @@
   }
   .icon:hover {
     color: #deaf5d;
+  }
+  .imageDescription {
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+  }
+  a:hover .imageDescription {
+    visibility: visible;
   }

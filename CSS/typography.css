@@ -46,3 +46,7 @@ font-family: 'Pathway Gothic One', sans-serif, 'Playfair Display SC' serif;
     content: "\e900";
 		font-size: 3rem;
 }
+.icon-wordpress:before {
+    content: "\eab6";
+		font-size: 3rem;
+}
