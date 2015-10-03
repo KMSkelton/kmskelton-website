@@ -28,7 +28,7 @@
   main {
     background-color: rgba(100, 100, 100, 0.3);
   }
-  h2, h6 {
+  h2, h4, h5, h6 {
     font-family: "Playfair Display SC", serif;
   }
   .disc {

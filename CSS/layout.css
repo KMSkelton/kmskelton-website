@@ -42,6 +42,7 @@ footer {
   top: 0;
   left: 0;
   display: inline;
+  font-size: 175%;
 }
 #diagram {
   width: 600px;
@@ -50,9 +51,6 @@ footer {
 .container {
   width: auto;
   padding: 0.1em;
-}
-.mobile--chart {
-  /*margin-top: 75em;*/
 }
 .horizontal .progress-bar {
   float: left;
@@ -75,7 +73,7 @@ footer {
 .mobile--chart h2 {
   text-align: center;
 }
-h6 {
+h4, h6 {
   text-align: justify;
 }
 .hide {
@@ -84,31 +82,4 @@ h6 {
 .icon {
   display: inline-block;
   margin-top: 0.5em;
-}
-#contact-area {
-  width: 30em;
-  margin: auto;
-  margin-top: 2em;
-}
-#contact-area input, #contact-area textarea {
-  margin: auto;
-  border: 0.2em solid #ccc;
-}
-#contact-area textarea {
-  height: 5em;
-}
-#contact-area textarea:focus, #contact-area input:focus {
-  border: 0.2em solid #900;
-}
-#contact-area input.submit-button {
-  margin: auto;
-  display: block;
-  width: 10em;
-}
-label {
-  float: left;
-  text-align: justify;
-  margin-right: 1.5em;
-  width: 10em;
-  font-size: 1.4em;
 }

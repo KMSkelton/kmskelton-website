@@ -14,7 +14,7 @@ var o = {
 		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#636262' });
 
 		var title = r.text(300, 300, defaultText).attr({
-			font: '16px Arial',
+			font: '3em Pathway Gothic One',
 			fill: '#fff'
 		}).toFront();
 
