@@ -1,104 +1,192 @@
-  @media screen and (min-width: 350px) {
-  .img1 {
-    margin:15%;
-    position: absolute;
-    top: 29em;
+  @media screen and (min-width: 250px) {
+    header {
+      background-size: 300%;
+      background-position: top;
+    }
+    header h1 {
+      padding-top: 3.1em;
+    }
+    .sigil {
+      margin-left: 3%;
+      position: absolute;
+      top: -1em;
+      z-index: 1;
+    }
+    .img1 {
+      margin: 10%;
+      position: absolute;
+      top: 52em;
+    }
+    .img2 {
+      margin: 10%;
+      position: absolute;
+      top: 63em;
+    }
+    .img3 {
+      margin: 10%;
+      position: absolute;
+      top: 74em;
+    }
+    .img4 {
+      margin: 10%;
+      position: absolute;
+      top: 85em;
+    }
+    .img5 {
+      margin: 10%;
+      position: absolute;
+      top: 96em;
+    }
+    main {
+      min-height: 75em;
+    }
+    .aboutMe {
+      width: 95%
+    }
+    .aboutMe h6:before {
+      content: "\a";
+      white-space: pre;
+    }
+    footer {
+      padding-top: 1em;
+      height: 5em;
+      padding-bottom: 0.1em;
+    }
+    .skills__graph {
+      display: none;
+    }
+    .mobile--chart {
+      display: block;
+    }
+    #RWDtext:after {
+      font-size: 0.7em;
+      content: "(try me on your desktop)"
+    }
+    #contact-area {
+      margin-left: 0.3em;
+      width: 20em;
+    }
+    #contact-area input, #contact-area textarea {
+      width: 30em;
+    }
+    label {
+      float: left;
+      text-align: justify;
+      margin-right: 1.5em;
+      width: 10em;
+      font-size: 1.5em;
+    }
+    .band {
+      display: block;
+    }
+    .band p {
+      margin: 0 3em;
+    }
+    .band h3 {
+      font-size: 1.8em;
+      margin-left: 1em;
+    }
+    .band img {
+      display: block;
+      margin:auto;
+    }
+    .boxy {
+      display: inline-block;
+      padding: 0 1em;
+      margin: 0 2em 1em;
+      border: 0.2em solid black;
+    }
+    .boxy h4 {
+      font-size: 1.25em;
+      margin: 0;
+    }
   }
-  .img2 {
-    margin:15%;
-    position: absolute;
-    top: 40em;
-  }
-  .img3 {
-    margin:15%;
-    position: absolute;
-    top: 51em;
-  }
-  .img4 {
-    margin:15%;
-    position: absolute;
-    top: 62em;
-  }
-  .img5 {
-    margin:15%;
-    position: absolute;
-    top: 73em;
-  }
-  main {
-    min-height: 75em;
-  }
-  .aboutMe {
-    width: 95%
-  }
-  .aboutMe h6:before {
-    content:"\a";
-    white-space: pre;
-  }
-  footer {
-    padding-top: 1em;
-    height: 5em;
-    padding-bottom: 0.1em;
-  }
-  .skills__graph {
-    display: none;
-  }
-  .mobile--chart {
-    display: block;
-  }
-  #RWDtext:after {
-    font-size: 0.7em;
-    content: "(try me on your desktop)"
-  }
-  #contact-area {
-    margin-left: 0.3em;
-    width: 20em;
-  }
-  #contact-area input, #contact-area textarea {
-    width: 30em;
-  }
-  label {
-    float: left;
-    text-align: justify;
-    margin-right: 1.5em;
-    width: 10em;
-    font-size: 1.5em;
+  @media screen and (min-width: 600px) {
+    header {
+      background-size: 200%;
+      background-position: top;
+    }
+    header h1 {
+      padding-top: 2.5em;
+    }
+    .sigil {
+      margin-left: 20%;
+      position: absolute;
+      top: -1em;
+      z-index: 1;
+    }
+    .band {
+      display: inline-block;
+      width: 100%;
+    }
+    .band h3 {
+      margin-top: 1em;
+      font-size: 2.4em;
+    }
+    .band p {
+      margin: 0 3em 1em;;
+    }
+    .band:nth-child(even) h3 {
+      margin-left: 1em;
+    }
+    .band img {
+      display: inline-block;
+      margin: 2em;
+      float: left;
+    }
+    .band:nth-child(even) img {
+      float: right;
+    }
+    .boxy {
+      display: inline-block;
+      padding: 0 1em;
+      margin: 0 2em 1em;
+      border: 0.2em solid black;
+    }
+    .boxy h4 {
+      font-size: 1.8em;
+      margin: 0;
+    }
   }
   @media screen and (min-width: 750px) {
+    .sigil {
+      margin-left: 25%;
+    }
     .img1 {
-      margin:none;
-      left: 0em;
-      top: 22em;
+      margin: none;
+      left: 10em;
+      top: 45em;
       z-index: 0;
     }
     .img2 {
-      margin:none;
-      left: 10em;
-      top: 22em;
+      margin: none;
+      left: 14em;
+      top: 47em;
       z-index: 40;
     }
     .img3 {
-      margin:none;
-      left: 6em;
-      top: 26em;
+      margin: none;
+      left: 8em;
+      top: 51em;
       z-index: 30;
     }
     .img4 {
-      margin:none;
-      left: 16em;
-      top: 28em;
+      margin: none;
+      left: 20em;
+      top: 47em;
       z-index: 20;
     }
     .img5 {
-      margin:none;
-      left: 19em;
-      top: 25em;
+      margin: none;
+      left: 24em;
+      top: 51em;
       z-index: 30;
     }
     main {
       min-height: 33em;
     }
     .aboutMe h6:before {
-      content:none;
+      content: none;
       white-space: none;
     }
     footer {
@@ -117,6 +205,13 @@
     }
   }
   @media screen and (min-width: 830px) {
+    header {
+      background-size: 100%;
+      background-position: top;
+    }
+    .sigil {
+      margin-left: 33%;
+    }
     .skills__graph {
       display: block;
     }
@@ -150,56 +245,142 @@
     }
   }
   @media screen and (min-width: 1000px) {
+    header {
+      background-size: 100%;
+      background-position: bottom;
+    }
+    header h1 {
+      padding-top: 2.5em;
+    }
+    .sigil {
+      margin-left: 31%;
+      position: absolute;
+      top: -1em;
+      z-index: 1;
+    }
     main {
       min-height: 35em;
     }
     .img1 {
-      left: 10em;
-      top: 23em;
+      left: 17em;
+      top: 47em;
     }
     .img2 {
-      left: 22em;
-      top: 22em;
+      left: 24em;
+      top: 49em;
     }
     .img3 {
-      left: 15em;
-      top: 28em;
+      left: 17em;
+      top: 53em;
     }
     .img4 {
-      left: 27em;
-      top: 27em;
+      left: 29em;
+      top: 49em;
     }
     .img5 {
-      left: 32em;
-      top: 25em;
+      left: 34em;
+      top: 53em;
     }
     #RWDtext:after {
       font-size: 0.7em;
       content: "(try me on mobile)"
     }
-}
-@media screen and (min-width: 1200px) {
-  main {
-    min-height: 35em;
   }
-  .img1 {
-    left: 13em;
-    top: 18em;
+  @media screen and (min-width: 1200px) {
+    header {
+      background-size: 100%;
+      background-position: bottom;
+    }
+    .sigil {
+      margin-left: 29%;
+    }
+    .sigil {
+      margin-left: 36%;
+      position: absolute;
+      top: -1em;
+      z-index: 1;
+    }
+    main {
+      min-height: 35em;
+    }
+    .img1 {
+      left: 23em;
+      top: 43em;
+    }
+    .img2 {
+      left: 30em;
+      top: 45em;
+    }
+    .img3 {
+      left: 23em;
+      top: 49em;
+    }
+    .img4 {
+      left: 35em;
+      top: 45em;
+    }
+    .img5 {
+      left: 40em;
+      top: 49em;
+    }
   }
-  .img2 {
-    left: 25em;
-    top: 17em;
+  @media screen and (min-width: 1444px) {
+    header {
+      background-size: 100%;
+      background-position: top;
+    }
+    .sigil {
+      margin-left: 41%;
+    }
+    .img1 {
+      left: 27em;
+      top: 40em;
+    }
+    .img2 {
+      left: 34em;
+      top: 42em;
+    }
+    .img3 {
+      left: 27em;
+      top: 46em;
+    }
+    .img4 {
+      left: 39em;
+      top: 42em;
+    }
+    .img5 {
+      left: 44em;
+      top: 46em;
+    }
+
   }
-  .img3 {
-    left: 18em;
-    top: 23em;
+  @media screen and (min-width: 1700px) {
+    header {
+      background-size: 100%;
+      background-position: top;
+    }
+    .sigil {
+      margin-left: 41%;
+    }
+    .img1 {
+      left: 36em;
+      top: 40em;
+    }
+    .img2 {
+      left: 43em;
+      top: 42em;
+    }
+    .img3 {
+      left: 36em;
+      top: 46em;
+    }
+    .img4 {
+      left: 48em;
+      top: 42em;
+    }
+    .img5 {
+      left: 53em;
+      top: 46em;
+    }
+
   }
-  .img4 {
-    left: 30em;
-    top: 22em;
-  }
-  .img5 {
-    left: 35em;
-    top: 20em;
-  }
-}

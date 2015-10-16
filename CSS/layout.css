@@ -1,12 +1,19 @@
+/*This is for positioning and sizing*/
 header {
-  height: 25em;
+  height: 45em;
 }
 header h1 {
-  padding-top: 2.5em;
+  position: relative;
+  z-index: 10;
 }
 #RWDtext {
+  padding: 0;
+  margin:auto;
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
+
 main {
   display: block;
   padding-left: 2em;

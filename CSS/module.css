@@ -1,17 +1,17 @@
+/*This is for fonts and colors*/
   header {
-    background-color: rgba(50, 50, 50, 1);
-    background-image: url("../images/sigil-regularAngles.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 22em, 22em;
+    background: url("../images/background.jpg") no-repeat center center fixed;
+  background-position: top;
   }
   header h1 {
     font-family: "Pathway Gothic One";
     text-align: center;
-    color: rgb(100, 100, 100);
+    text-shadow: 2px 2px 0px black;
+    color: rgb(150, 150, 150);
   }
   header h2 {
-    color: rgb(120, 120, 120);
+    text-shadow: 2px 2px 3px black;
+    color: rgb(175, 175, 175);
   }
   #RWDtext {
     display: none;
@@ -20,7 +20,7 @@
     display: block;
   }
   #header:hover {
-    color: rgb(150, 150, 150);
+    color: rgb(200, 200, 200);
   }
   a {
     text-decoration: none;
@@ -28,7 +28,7 @@
   main {
     background-color: rgba(100, 100, 100, 0.3);
   }
-  h2, h4, h5, h6 {
+  h2, h3, h4, h5, h6, p {
     font-family: "Playfair Display SC", serif;
   }
   .disc {
@@ -66,4 +66,13 @@
   }
   a:hover .imageDescription {
     visibility: visible;
+  }
+  .band {
+    background-color: rgba(125, 254, 255, 0.3);
+  }
+  .band h3 {
+    font-family: "Pathway Gothic One", sans-serif;
+  }
+  .band:nth-child(even) {
+    background-color: rgba(200, 200, 200, 0.2);
   }
