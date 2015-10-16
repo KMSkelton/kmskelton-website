@@ -29,10 +29,10 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.container {
+.gridContainer {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -46,7 +46,7 @@
 /* For devices larger than 400px */
 
 @media screen and (min-width: 400px) {
-  .container {
+  .gridContainer {
     width: 85%;
     padding: 0;
   }
@@ -55,7 +55,7 @@
 /* For devices larger than 600px */
 
 @media screen and (min-width: 600px) {
-  .container {
+  .gridContainer {
     width: 80%;
   }
   .column, .columns {

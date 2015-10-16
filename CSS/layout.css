@@ -1,12 +1,23 @@
+/*This is for positioning and sizing*/
 header {
-  height: 25em;
+  height: 45em;
 }
 header h1 {
-  padding-top: 2.5em;
+  position: relative;
+  z-index: 10;
 }
+#RWDtext {
+  padding: 0;
+  margin:auto;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
 main {
-  position: absolute;
-  width: 100%;
+  display: block;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 main h2 {
   text-align: center;
@@ -18,28 +29,35 @@ main h2 {
   display: none;
 }
 .skills__graph {
-  display: inline-block;
-  position: absolute;
+  display: block;
   left: 27%;
-  margin-top: 32em;
   height: 50em;
   width: 50em;
   overflow: visible;
+  margin-left: 30%;
 }
-
+footer {
+  position: relative;
+  display: block;
+}
+.aboutMe {
+  margin: auto;
+  width: 60%;
+}
+.imageDescription {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline;
+  font-size: 175%;
+}
 #diagram {
   width: 600px;
   height: 600px;
 }
-
 .container {
-  position: absolute;
   width: auto;
-  margin-top: 1em;
   padding: 0.1em;
-}
-.mobile--chart {
-  margin-top: 75em;
 }
 .horizontal .progress-bar {
   float: left;
@@ -47,13 +65,11 @@ main h2 {
   width: 100%;
   /*padding: 0.5em 0;*/
 }
-
 .horizontal .progress-track {
   position: relative;
   width: 100%;
   height: 1.5em;
 }
-
 .horizontal .progressFill {
   position: relative;
   /*height: 1.5em;*/
@@ -64,9 +80,13 @@ main h2 {
 .mobile--chart h2 {
   text-align: center;
 }
-h6 {
+h4, h6 {
   text-align: justify;
 }
-span {
+.hide {
   display: none;
+}
+.icon {
+  display: inline-block;
+  margin-top: 0.5em;
 }
