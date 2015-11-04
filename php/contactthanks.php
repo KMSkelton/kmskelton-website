@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
 
 <head>
-	<title>A Nice & Simple Contact Form</title>
+	<title>5 Elements Forge Contact Form</title>
 
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -19,10 +19,10 @@
 
 
 		<h1>Your message has been sent!</h1>
-		<h2>If you do not receive a response within 72 hours, please contact<br /> kristopher at kmskelton dot com.</h2>
+		<h2>If you do not receive a response within 72 hours, please contact<br /> GeoffKeyes at hotmail dot com. I may be at a show, please check my calendar.</h2>
 		<br />
 
-		<p><a href="../index.html">Back to KMSKELTON home</a></p>
+		<p><a href="../index.html">Back to 5 Elements Forge home</a></p>
 
 	</div>
 

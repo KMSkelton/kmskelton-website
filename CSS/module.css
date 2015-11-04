@@ -76,3 +76,6 @@
   .band:nth-child(even) {
     background-color: rgba(200, 200, 200, 0.2);
   }
+.more {
+  background-color: rgba(100, 100, 100, 0.3);
+}

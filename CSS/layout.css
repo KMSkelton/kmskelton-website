@@ -90,3 +90,9 @@ h4, h6 {
   display: inline-block;
   margin-top: 0.5em;
 }
+.more {
+  width: 100%;
+}
+.more h6 {
+  margin: 2em 0 0;
+}
