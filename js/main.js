@@ -1,14 +1,16 @@
 $(document).ready(function() {
-  $("#header").click(function(){
+  var slideMe = function() {
     $("#RWDtext").slideToggle("slow");
     $("#tryMe").slideToggle("slow");
     $("#header").slideToggle("slow");
-
+  }
+  setTimeout(function() {
+    slideMe();
+  }, 3500);
+  $("#RWDtext").click(function() {
+    slideMe();
   });
-  $("#RWDtext").click(function(){
-    $("#header").slideToggle("slow");
-    $("#tryMe").slideToggle("slow");
-    $("#RWDtext").slideToggle("slow");
+  $("#header").click(function() {
+    slideMe();
   });
-
 });
