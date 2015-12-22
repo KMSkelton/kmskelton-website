@@ -22,6 +22,9 @@ main {
 main h2 {
   text-align: center;
 }
+h4, h6 {
+  text-align: justify;
+}
 .disc:hover {
   z-index: 1000;
 }
@@ -79,9 +82,6 @@ footer {
 }
 .mobile--chart h2 {
   text-align: center;
-}
-h4, h6 {
-  text-align: justify;
 }
 .hide {
   display: none;
