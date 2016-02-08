@@ -1,0 +1,359 @@
+/*Grid based on 1280px wide screen. 12 and 16 segments in % and em */
+
+.wrapper{
+  display: block;
+  max-width: 80em; /*1280px is  (default)*/
+  margin: 0 auto;
+}
+.wrapper60 {
+  display: block;
+  max-width: 60em; /*960px is 60em*/
+  margin: 0 auto;
+}
+.sixteenth {
+  display: inline-block;
+  margin-left: -0.25em;
+}
+.sixteenth:first-child {
+  display: inline-block;
+  margin-left: 0;
+}
+.sixteenth:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+.seg16 {
+  display: inline-block;
+  margin: 0 -0.157%;
+}
+.seg16:first-child {
+  display: inline-block;
+  margin-left: 0;
+}
+.seg16:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+.seg16-60 {
+  display: inline-block;
+  margin: 0 -0.209%;
+}
+.seg16-60:first-child {
+  display: inline-block;
+  margin-left: 0;
+}
+.seg16-60:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.twelfth{
+  display: inline-block;
+  margin: 0 -0.157%;
+}
+.twelfth:first-child {
+  display: inline-block;
+  margin-left: 0;
+}
+.twelfth:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+.seg12 {
+  display: inline-block;
+  margin: 0 -0.157%;
+}
+.seg12:first-child {
+  display: inline-block;
+  margin-left: 0;
+}
+.seg12:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+.seg12-60 {
+  display: inline-block;
+  margin: 0 -0.209%;
+}
+.seg12-60:first-child {
+  display: inline-block;
+  margin-left: 0;
+}
+.seg12-60:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+
+
+/* ----------------------------------------
+---------sixteenths in percent ------------ */
+
+.one.sixteenth {
+  width: 6.25%;
+}
+.two.sixteenth {
+  width: 12.5%;
+}
+.three.sixteenth {
+  width: 18.75%;
+}
+.four.sixteenth {
+  width: 25%;
+}
+.five.sixteenth {
+  width: 31.25%;
+}
+.six.sixteenth {
+  width: 37.5%;
+}
+.seven.sixteenth {
+  width: 43.75%;
+}
+.eight.sixteenth {
+  width: 50%;
+}
+.nine.sixteenth {
+  width: 56.25%;
+}
+.ten.sixteenth {
+  width: 62.50%;
+}
+.eleven.sixteenth {
+  width: 68.75%;
+}
+.twelve.sixteenth {
+  width: 75%;
+}
+.thirteen.sixteenth {
+  width: 81.25%;
+}
+.fourteen.sixteenth {
+  width: 87.5%;
+}
+.fifteen.sixteenth {
+  width: 93.75%;
+}
+.full, .sixteen.sixteenth {
+  width: 100%;
+}
+
+/* --------------80 em --------------------
+----------- sixteenths, in em ------------- */
+.one.seg16 {
+width: 5em;
+}
+.two.seg16 {
+width: 10em;
+}
+.three.seg16 {
+width: 15em;
+}
+.four.seg16 {
+width: 20em;
+}
+.five.seg16 {
+width: 25em;
+}
+.six.seg16 {
+width: 30em;
+}
+.seven.seg16 {
+width: 35em;
+}
+.eight.seg16 {
+width: 40em;
+}
+.nine.seg16 {
+width: 45em;
+}
+.ten.seg16 {
+width: 50em;
+}
+.eleven.seg16 {
+width: 55em;
+}
+.twelve.seg16 {
+width: 60em;
+}
+.thirteen.seg16 {
+width: 65em;
+}
+.fourteen.seg16 {
+width: 70em;
+}
+.fifteen.seg16 {
+width: 75em;
+}
+.full, .sixteen.seg16 {
+width: 80em;
+}
+/* --------------60 em --------------------
+----------- sixteenths, in em ------------- */
+.one.seg16-60 {
+width: 3.75em;
+}
+.two.seg16-60 {
+width: 7.5em;
+}
+.three.seg16-60 {
+width: 11.25em;
+}
+.four.seg16-60 {
+width: 15em;
+}
+.five.seg16-60 {
+width: 18.75em;
+}
+.six.seg16-60 {
+width: 22.5em;
+}
+.seven.seg16-60 {
+width: 26.25em;
+}
+.eight.seg16-60 {
+width: 30em;
+}
+.nine.seg16-60 {
+width: 33.75em;
+}
+.ten.seg16-60 {
+width: 37.5em;
+}
+.eleven.seg16-60 {
+width: 41.25em;
+}
+.twelve.seg16-60 {
+width: 45em;
+}
+.thirteen.seg16-60 {
+width: 48.75em;
+}
+.fourteen.seg16-60 {
+width: 52.5em;
+}
+.fifteen.seg16-60 {
+width: 56.25em;
+}
+.full-60, .sixteen.seg16-60 {
+width: 60em;
+}
+
+/*------------------------------------------
+----- TWELFTHS in percent ------------------ */
+
+.one.twelfth {
+  width: 8.333%;
+}
+.two.twelfth {
+  width: 16.666%;
+}
+.three.twelfth {
+  width: 25%;
+}
+.four.twelfth {
+  width: 33.333%;
+}
+.five.twelfth {
+  width: 41.666%;
+}
+.six.twelfth {
+  width: 50%;
+}
+.seven.twelfth {
+  width: 58.333%;
+}
+.eight.twelfth {
+  width: 66.666%;
+}
+.nine.twelfth {
+  width: 75%;
+}
+.ten.twelfth {
+  width: 83.333%;
+}
+.eleven.twelfth {
+  width: 91.666%;
+}
+.full, .twelve.twelfth {
+  width: 100%;
+}
+
+
+/*----------80 em----------------------------
+----- TWELFTHS in em ------------------ */
+
+.one.seg12 {
+  width: 6.66em;
+}
+.two.seg12 {
+  width: 13.33em;
+}
+.three.seg12 {
+  width: 20em;
+}
+.four.seg12 {
+  width: 26.66em;
+}
+.five.seg12 {
+  width: 33.333em;
+}
+.six.seg12 {
+  width: 40em;
+}
+.seven.seg12 {
+  width: 46.666em;
+}
+.eight.seg12 {
+  width: 53.333em;
+}
+.nine.seg12 {
+  width: 60.0em;
+}
+.ten.seg12 {
+  width: 66.66em;
+}
+.eleven.seg12 {
+  width: 73.33em;
+}
+.full, .twelve.seg12 {
+  width: 80em;
+}
+/*----------60 em----------------------------
+----- TWELFTHS in em ------------------ */
+
+.one.seg12-60 {
+  width: 5em;
+}
+.two.seg12-60 {
+  width: 10em;
+}
+.three.seg12-60 {
+  width: 15em;
+}
+.four.seg12-60 {
+  width: 20em;
+}
+.five.seg12-60 {
+  width: 25em;
+}
+.six.seg12-60 {
+  width: 30em;
+}
+.seven.seg12-60 {
+  width: 35em;
+}
+.eight.seg12-60 {
+  width: 40em;
+}
+.nine.seg12-60 {
+  width: 45em;
+}
+.ten.seg12-60 {
+  width: 50em;
+}
+.eleven.seg12-60 {
+  width: 55em;
+}
+.full-60, .twelve.seg12-60 {
+  width: 60em;
+}

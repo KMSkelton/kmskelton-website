@@ -39,7 +39,7 @@
       top: 96em;
     }
     main {
-      min-height: 75em;
+      height: 75em;
     }
     .aboutMe {
       width: 95%
@@ -47,6 +47,9 @@
     .aboutMe h6:before {
       content: "\a";
       white-space: pre;
+    }
+    .aboutMain {
+      height: 35em;
     }
     footer {
       padding-top: 1em;
@@ -94,7 +97,7 @@
     .boxy {
       display: inline-block;
       padding: 0 1em;
-      margin: 0 2em 1em;
+      margin: 1.2em 2em 1em;
       border: 0.2em solid black;
     }
     .boxy h4 {
@@ -109,6 +112,9 @@
     }
     header h1 {
       padding-top: 2.5em;
+    }
+    .aboutMain {
+      height: 30em;
     }
     .sigil {
       margin-left: 20%;
@@ -141,7 +147,7 @@
     .boxy {
       display: inline-block;
       padding: 0 1em;
-      margin: 0 2em 1em;
+      margin: 1.2em 2em 1em;
       border: 0.2em solid black;
     }
     .boxy h4 {
@@ -183,12 +189,15 @@
       top: 51em;
       z-index: 30;
     }
-    main {
-      min-height: 33em;
-    }
     .aboutMe h6:before {
       content: none;
       white-space: none;
+    }
+    main {
+      height: 35em;
+    }
+    .aboutMain {
+      height: 25em;
     }
     footer {
       height: 5em;
@@ -215,6 +224,9 @@
     }
     .skills__graph {
       display: block;
+    }
+    .aboutMain {
+      height: 30em;
     }
     .aboutMe {
       width: 70%
@@ -259,8 +271,8 @@
       top: -1em;
       z-index: 1;
     }
-    main {
-      min-height: 35em;
+    .aboutMain {
+      height: 25em;
     }
     .img1 {
       left: 17em;
@@ -301,9 +313,6 @@
       top: -1em;
       z-index: 1;
     }
-    main {
-      min-height: 35em;
-    }
     .img1 {
       left: 23em;
       top: 43em;
@@ -329,6 +338,9 @@
     header {
       background-size: 100%;
       background-position: top;
+    }
+    .aboutMain {
+      height: 15em;
     }
     .sigil {
       margin-left: 41%;

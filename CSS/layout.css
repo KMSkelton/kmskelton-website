@@ -2,6 +2,9 @@
 header {
   height: 45em;
 }
+.aboutHeader {
+  height: 30em;
+}
 header h1 {
   position: relative;
   z-index: 10;
@@ -13,11 +16,13 @@ header h1 {
   position: relative;
   z-index: 10;
 }
-
 main {
   display: block;
   padding-left: 2em;
   padding-right: 2em;
+}
+.aboutMain{
+  padding-top: 3em;
 }
 main h2 {
   text-align: center;
@@ -95,4 +100,8 @@ footer {
 }
 .more h6 {
   margin: 2em 0 0;
+}
+.band img {
+  width: 14em;
+  /*max-height: 8em;*/
 }
