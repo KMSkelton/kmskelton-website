@@ -110,3 +110,15 @@ form {
   width: 15em;
   border-radius: 50%;
 }
+.download{
+  display: block;
+  margin: auto;
+  width: 15em;
+  height: 7em;
+  border-radius: 1em;
+}
+.resume{
+  color: #000;
+  font-family: "Raleway", serif;
+  font-size: 2em;
+}

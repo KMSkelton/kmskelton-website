@@ -8,13 +8,13 @@ var o = {
 	diagram: function(){
 		var r = Raphael('diagram', 600, 600),
 			rad = 73,
-			defaultText = 'Skills',
+			defaultText = 'Stack \n Confidence',
 			speed = 250;
 
 		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#636262' });
 
 		var title = r.text(300, 300, defaultText).attr({
-			font: '3em Pathway Gothic One',
+			font: '1.8em Raleway',
 			fill: '#fff'
 		}).toFront();
 
