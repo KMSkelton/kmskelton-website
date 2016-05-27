@@ -101,7 +101,12 @@ footer {
 .more h6 {
   margin: 2em 0 0;
 }
-.band img {
-  width: 14em;
-  /*max-height: 8em;*/
+form {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+.circular {
+  margin-top: 2em;
+  width: 15em;
+  border-radius: 50%;
 }
