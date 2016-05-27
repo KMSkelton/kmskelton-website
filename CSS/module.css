@@ -1,6 +1,6 @@
 /*This is for fonts and colors*/
   header {
-    background: url("../images/background2.jpg") no-repeat center center fixed;
+    background: url("../images/background3.jpg") no-repeat center center fixed;
   background-position: top;
   }
   header h1 {
@@ -68,7 +68,7 @@
     visibility: visible;
   }
   .band {
-    background-color: rgba(125, 254, 255, 0.3);
+    background-color: rgba(255, 255, 255, 1);
   }
   .band h3 {
     font-family: "Pathway Gothic One", sans-serif;

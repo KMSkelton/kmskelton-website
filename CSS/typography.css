@@ -28,25 +28,25 @@ font-family: 'Pathway Gothic One', sans-serif, 'Playfair Display SC' serif;
 
 .icon-envelop:before {
 	content: "\e945";
-  font-size: 6rem;
+  font-size: 400%;
 }
 .icon-twitter:before {
 	content: "\ea91";
-  font-size: 6rem;
+  font-size: 400%;
 }
 .icon-github4:before {
 	content: "\eab4";
-  font-size: 6rem;
+  font-size: 400%;
 }
 .icon-linkedin:before {
 	content: "\eac8";
-  font-size: 6rem;
+  font-size: 400%;
 }
 .icon-home:before {
     content: "\e900";
-		font-size: 6rem;
+		font-size: 400%;
 }
 .icon-wordpress:before {
     content: "\eab6";
-		font-size: 6rem;
+		font-size: 400%;
 }

@@ -10,7 +10,6 @@
   <link rel='shortcut icon' href='http://www.kmskelton.com/favicon.ico?v=2' />
   <!-- Place favicon.ico in the root directory -->
   <link href="css/base.css" type="text/css" rel="stylesheet" />
-  <link href="css/skeleton.css" type="text/css" rel="stylesheet" />
   <link href="css/module.css" type="text/css" rel="stylesheet" />
   <link href="css/layout.css" type="text/css" rel="stylesheet" />
   <link href="css/mediaQueries.css" type="text/css" rel="stylesheet" />
@@ -20,7 +19,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="aboutHeader">
     <h1 id="headerText">KRISTOPHER SKELTON</h1>
     <h2>
       <div id="RWDtext">Responsive</br> Web</br> Design</br>
@@ -28,21 +27,16 @@
     </h2>
     <img class="sigil" src="./images/sigil.gif"></img>
   </header>
-  <main>
     <div class="aboutMe">
-      <h5>HTML and CSS have been constant companions for over two decades. Books and tutorials comprised the bulk of my "training" until I attended on-site classes at Code Fellows in Seattle. There I learned the fundamentals of JavaScript and completed an
-        8-week intensive course in Front End Web Development.</h5><br />
-      <h5>While I'm still a junior-level developer, I have a solid training base, know how to ask the questions to figure out a solution to my problem, and know how to use the tools. That's a far cry from my experience with self-teaching.</h5><br />
-      <h5>I offer passion for responsive web design. I build for a quality mobile experience that takes advantage of media queries and relative sizing. The experience improves with the added real-estate of a full size monitor. HTML and CSS comprise the core
-        of my skillset; animations and SASS expand these capabilities.  JavaScript (along with jQuery and Angular) add interactivity.</h5>
+      <img src="cfHeadshot2.jpg" class="circular">
+      <h6>Kristopher Skelton is a front end web developer who specializes in responsive web design. He burned through “Teach Yourself Web Publishing with HTML in 14 Days” just after high school and kept up with web development as a hobby. His career has spanned medical billing and professional history, as well as paraprofessional education. In 2015 he successfully completed certificate programs in JavaScript and advanced Front-End Web Development through Code Fellows in his hometown of Seattle. Recent projects include technologies such as: HTML, CSS, JavaScript, jQuery, Angular, Node, Express, Mongo, SASS, and Git version control. He enjoys solving complex problems as part of a small team. His current hobbies include table top games such as 7 Wonders, Dominion and Power Grid, and he float-tested his twenty-sided dice to ensure fair rolls during D&D games.
+</h6><br />
+      <h6>Though still a junior-level developer, he has a solid training base, knows how to ask the questions to figure out a solution to his problems, and knows how to use development environment tools. Before he changed careers to web development he worked for over 13 years in all aspects of the medical billing cycle, mostly in the corporate setting. <br />
+        He has an AAS in aerospace engineering and a MA in applied history. This diverse educational background combines with years in the professional world to influence all of his work. He is comfortable considering a problem from multiple angles while making quick decisions. He takes ownership of these decisions and follows them through until they are completed.</h6>
     </div>
-  </main>
   <div id="contact-area">
-    <h5>
-      I would love to hear from you!
-    </h5>
-    <h6>Please complete the form below, or email me directly: kristopher @ kmskelton .com</h6>
     <form method="post" action="./php/contactengine.php">
+      <p>I woud love to hear from you! Please complete the form below, or email me directly: kristopher @ kmskelton .com</p>
       <label for="Name">Name:</label>
       <input type="text" name="Name" id="Name" />
 
@@ -54,18 +48,11 @@
 
       <label for="Message">Message:</label>
       <br />
-      <textarea name="Message" id="Message"></textarea>
+      <textarea name="Message" id="Message" rows="7" cols="55"></textarea>
 
-      <input type="submit" name="submit" value="Submit" class="submit-button" />
+      <input type="submit" name="submit" value="Ship it!" class="submit-button" />
     </form>
   </div>
-  <article class="more">
-    <section class="aboutMe">
-    <h6>Before I changed careers to web development I worked for over 13 years in all aspects of the medical billing cycle: customer service (answering questions about patient bills), registration, payment posting, appealing denials, and most recently I was a clinic biller. This position required that I review patient accounts, keep up with all the changes to insurance coverages (including all of the new plans created by the Affordable Care Act), as well as review physician claims before they were electronically sent out.</h6>
-    <h6>I have an Associate of Arts and Science degree in aerospace engineering. That educational path didn't pan out, so while working full time I went back to school via Washington State Univerity's Distance Degree Progam (which has since changed names at least twice). Upon completion my GPA was high enough to have "summa cum laude" added to my Bachelor of Arts in humanities. Beyond that I completed a Master of Arts degree in public (applied) history. My thesis is titled "Trapped in the Fur Trade: Debt Bondage in the Rocky Mountains 1822-1827."</h6><br />
-    <p>I have dabbled in photography and editing in GIMP and Photoshop. The background image on this site is a photo I took of a sunset in Edmonds, WA in 2014 and I use it with my permission.<p>
-  </section>
-  </article>
   <footer>
     <a href="./index.html">
       <span aria-hidden="true" class="icon-home icon">
