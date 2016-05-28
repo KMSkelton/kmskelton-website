@@ -73,9 +73,9 @@
       padding-top: 1em;
       height: 5em;
       padding-bottom: 1em;
-      margin-top: 75%;
+      margin-top: 90%;
     }
-    .skills__graph {
+    #columnChart {
       display: none;
     }
     .mobile--chart {
@@ -242,7 +242,7 @@
     .aboutMain {
       height: 25em;
     }
-    .skills__graph {
+    #columnChart {
       margin: auto;
       display: block;
     }
@@ -289,7 +289,7 @@
     .sigil {
       margin-left: 33%;
     }
-    .skills__graph {
+    #columnChart {
       display: block;
     }
     .aboutMain {
