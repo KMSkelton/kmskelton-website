@@ -110,15 +110,14 @@ form {
   width: 15em;
   border-radius: 50%;
 }
-.download{
-  display: block;
-  margin: auto;
-  width: 15em;
-  height: 7em;
-  border-radius: 1em;
+.contact__button--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
 }
-.resume{
-  color: #000;
-  font-family: "Raleway", serif;
-  font-size: 2em;
+.contact__button {
+margin: 1.5em auto;
+height: 7em;
 }
