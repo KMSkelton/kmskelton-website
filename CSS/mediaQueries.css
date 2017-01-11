@@ -1,4 +1,22 @@
   @media screen and (min-width: 250px) {
+    h1 {
+      font-size: 3.0em;
+    }
+    h2 {
+      font-size: 2.7em;
+    }
+    h3 {
+      font-size: 2.1em;
+    }
+    h4 {
+      font-size: 1.5em;
+    }
+    h5 {
+      font-size: 1.2em;
+    }
+    h6 {
+      font-size: 1.1em;
+    }
     header {
       background-size: 300%;
       background-position: top;
@@ -39,7 +57,7 @@
       top: 96em;
     }
     main {
-      min-height: 75em;
+      height: 75em;
     }
     .aboutMe {
       width: 95%
@@ -48,10 +66,14 @@
       content: "\a";
       white-space: pre;
     }
+    .aboutMain {
+      height: 35em;
+    }
     footer {
       padding-top: 1em;
       height: 5em;
-      padding-bottom: 0.1em;
+      padding-bottom: 1em;
+      margin-top: 75%;
     }
     .skills__graph {
       display: none;
@@ -89,12 +111,12 @@
     }
     .band img {
       display: block;
-      margin:auto;
+      margin: 2em auto 15%;
     }
     .boxy {
       display: inline-block;
       padding: 0 1em;
-      margin: 0 2em 1em;
+      margin: 1.2em 2em 1em;
       border: 0.2em solid black;
     }
     .boxy h4 {
@@ -103,12 +125,33 @@
     }
   }
   @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 3.6em;
+    }
+    h2 {
+      font-size: 3.0em;
+    }
+    h3 {
+      font-size: 2.4em;
+    }
+    h4 {
+      font-size: 1.8em;
+    }
+    h5 {
+      font-size: 1.5em;
+    }
+    h6 {
+      font-size: 1.2em;
+    }
     header {
       background-size: 200%;
       background-position: top;
     }
     header h1 {
       padding-top: 2.5em;
+    }
+    .aboutMain {
+      height: 30em;
     }
     .sigil {
       margin-left: 20%;
@@ -125,14 +168,16 @@
       font-size: 2.4em;
     }
     .band p {
-      margin: 0 3em 1em;;
+      margin: 0 3em 1em;
+      width: 80%;
     }
     .band:nth-child(even) h3 {
       margin-left: 1em;
     }
     .band img {
+      width: 25em;
       display: inline-block;
-      margin: 2em;
+      margin: 2em 2em 15%;
       float: left;
     }
     .band:nth-child(even) img {
@@ -141,13 +186,17 @@
     .boxy {
       display: inline-block;
       padding: 0 1em;
-      margin: 0 2em 1em;
+      margin: 1.2em 2em 1em 0;
       border: 0.2em solid black;
     }
     .boxy h4 {
       font-size: 1.8em;
       margin: 0;
     }
+    .band:nth-child(even) .boxy {
+      margin: 0 2em 2em 3em;
+    }
+
   }
   @media screen and (min-width: 750px) {
     .sigil {
@@ -183,15 +232,15 @@
       top: 51em;
       z-index: 30;
     }
-    main {
-      min-height: 33em;
-    }
     .aboutMe h6:before {
       content: none;
       white-space: none;
     }
-    footer {
-      height: 5em;
+    main {
+      height: 35em;
+    }
+    .aboutMain {
+      height: 25em;
     }
     .skills__graph {
       margin: auto;
@@ -200,12 +249,39 @@
     .mobile--chart {
       display: none;
     }
+    footer {
+      height: 5em;
+      padding: 1em 0;
+      margin-top: 1%;
+    }
     #RWDtext:after {
       font-size: 0.7em;
       content: "(tablets are different from desktop or mobile)"
     }
   }
   @media screen and (min-width: 830px) {
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 4.0em;
+    }
+    h2 {
+      font-size: 3.6em;
+    }
+    h3 {
+      font-size: 3.0em;
+    }
+    h4 {
+      font-size: 2.4em;
+    }
+    h5 {
+      font-size: 1.8em;
+    }
+    h6 {
+      font-size: 1.5em;
+    }
     header {
       background-size: 100%;
       background-position: top;
@@ -216,12 +292,11 @@
     .skills__graph {
       display: block;
     }
+    .aboutMain {
+      height: 30em;
+    }
     .aboutMe {
       width: 70%
-    }
-    footer {
-      height: 5em;
-      padding-top: 1em;
     }
     #contact-area {
       margin: auto;
@@ -259,8 +334,8 @@
       top: -1em;
       z-index: 1;
     }
-    main {
-      min-height: 35em;
+    .aboutMain {
+      height: 25em;
     }
     .img1 {
       left: 17em;
@@ -301,9 +376,6 @@
       top: -1em;
       z-index: 1;
     }
-    main {
-      min-height: 35em;
-    }
     .img1 {
       left: 23em;
       top: 43em;
@@ -329,6 +401,9 @@
     header {
       background-size: 100%;
       background-position: top;
+    }
+    .aboutMain {
+      height: 15em;
     }
     .sigil {
       margin-left: 41%;
