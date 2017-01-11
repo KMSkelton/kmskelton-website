@@ -79,3 +79,7 @@
 .more {
   background-color: rgba(100, 100, 100, 0.3);
 }
+
+form p {
+  font-size: 14px;
+}

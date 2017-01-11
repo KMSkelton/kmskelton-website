@@ -96,3 +96,10 @@ footer {
 .more h6 {
   margin: 2em 0 0;
 }
+
+#btnrefresh, #txtCaptcha {
+  display: inline-block;
+  line-height: 3em;
+  max-width: 20em;
+  margin: auto;
+}

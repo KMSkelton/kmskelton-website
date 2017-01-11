@@ -18,3 +18,36 @@ $(document).ready(function() {
     slideMe();
   });
 });
+
+
+//Created / Generates the captcha function
+ function drawCaptcha() {
+  var a = Math.ceil(Math.random() * 6)+ '';
+  var b = Math.ceil(Math.random() * 6)+ '';
+  var c = Math.ceil(Math.random() * 6)+ '';
+  var d = Math.ceil(Math.random() * 6)+ '';
+  var e = Math.ceil(Math.random() * 6)+ '';
+  var f = Math.ceil(Math.random() * 6)+ '';
+  var g = Math.ceil(Math.random() * 6)+ '';
+  var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' '+ f ;
+  document.getElementById("txtCaptcha").value = code
+}
+( function() {
+  drawCaptcha();
+})();
+
+// Remove the spaces from the entered and generated code
+ function removeSpaces(string){
+  return string.split(' ').join('');
+ }
+
+ // Validate the Entered input aganist the generated security code function
+ function check(input) {
+   var cap =removeSpaces(document.getElementById('txtCaptcha').value);
+ if (input.value != cap ) {
+   input.setCustomValidity("This does not match the above. Please Check!");
+   } else {
+   // input is fine -- reset the error message
+   input.setCustomValidity('');
+   }
+   }
