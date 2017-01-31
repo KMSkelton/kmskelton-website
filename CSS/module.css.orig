@@ -80,6 +80,11 @@
 .more {
   background-color: rgba(100, 100, 100, 0.3);
 }
+<<<<<<< HEAD
+
+form p {
+  font-size: 14px;
+=======
 .contact__button {
   border-radius: 1em;
 }
@@ -88,4 +93,5 @@
   font-family: "Raleway", serif;
   font-size: 2em;
   padding: 0.2em;
+>>>>>>> added resume link
 }

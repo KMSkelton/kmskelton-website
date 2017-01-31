@@ -108,3 +108,25 @@ footer {
   max-width: 20em;
   margin: auto;
 }
+.contact__button--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.contact__button {
+margin: 1.5em auto;
+height: 7em;
+}
+.contact__button--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.contact__button {
+margin: 1.5em auto;
+height: 7em;
+}
