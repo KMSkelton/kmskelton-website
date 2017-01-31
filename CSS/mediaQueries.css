@@ -245,6 +245,8 @@
     #columnChart {
       margin: auto;
       display: block;
+      min-width: 80em;
+      min-height: 20em;
     }
     .mobile--chart {
       display: none;

@@ -1,6 +1,5 @@
 $(function() {
-  $('#columnChart')
-    .highcharts({
+  Highcharts.chart('columnChart', { 
       chart: {
         type: 'column'
       },
@@ -42,7 +41,7 @@ $(function() {
     },
         {
           name: 'CSS',
-          data: [100]
+          data: [95]
     },
         {
           name: 'Sass',
