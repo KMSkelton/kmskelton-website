@@ -14,6 +14,8 @@
     <link href="css/layout.css" type="text/css" rel="stylesheet" />
     <link href="css/mediaQueries.css" type="text/css" rel="stylesheet" />
     <link href="css/typography.css" type="text/css" rel="stylesheet" />
+    <link href="css/panels.css" type="text/css" rel="stylesheet" />
+
     <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
@@ -28,138 +30,48 @@
         <img class="sigil" src="./images/sigil.gif"></img>
     </header>
     <main>
-        <h2> Selected Projects </h2>
-        <a href="projects.html#SLUVT">
-            <img class="disc img1" src="./images/sluvt3-screen.png" alt="south lake union virtual tours logo" />
-        </a>
-        <a href="projects.html#LFG">
-            <img class="disc img2" src="./images/lfg2-screen.png" alt="looking for game web app logo" />
-        </a>
-        <a href="projects.html#kaviar" alt=""><img class="disc img3" src="./images/kaviar.jpg" />
-        </a>
-        <a href="projects.html#sgvdt">
-            <img class="disc img4" src="./images/sgvdt.jpg" alt="seattle gun violence data tracker" />
-        </a>
-        <a href="projects.html#5EF">
-            <img class="disc img5" src="./images/5ef.png" alt="Five Elements Forge logo" />
-        </a>
-    </main>
-    <div id="columnChart">
-
-    </div>
-    <!-- probably based on this, but I don't remember...
-  http://maxdesign.com.au/articles/percentage/ -->
-    <div class="mobile--chart">
-        <div class="container horizontal rounded">
-            <h2>Skills</h2>
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="horizontal progressFill">
-                        <h4>HTML</h4>
-                        <span class="hide">100%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>CSS</h4>
-                        <span class="hide">100%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>Sass</h4>
-                        <span class="hide">75%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>React</h4>
-                        <span class="hide">60%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>JavaScript</h4>
-                        <span class="hide">90%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>jQuery</h4>
-                        <span class="hide">85%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>Angular</h4>
-                        <span class="hide">75%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="progress-bar horizontal">
-                <div class="progress-track">
-                    <div class="progressFill">
-                        <h4>highcharts</h4>
-                        <span class="hide">60%</span>
-                    </div>
-                </div>
-            </div>
-
+    <div class="panels">
+        <div class="panel panel1">
+          <!-- whiteboard background: youtube, wordpress -->
+          <p>Teaching</p>
+          <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="blank"></a>
+          <p>is</p>
+          <a href="https://kmskelton.wordpress.com/" target="blank"></a>
+          <p>Learning</p>
         </div>
-    </div>
-    <!-- closes the mobile--chart div above -->
-    <footer>
-        <a href="./contact.html">
-            <span aria-hidden="true" class="icon-envelop icon">
-        <span class="imageDescription">Resume, Contact and About</span>
-            </span>
-        </a>
-        <a href="https://twitter.com/KM_Skelton" target="_blank">
-            <span class="icon-twitter icon">
-        <span class="imageDescription">Twitter</span>
-            </span>
-
-        </a>
-        <a href="https://github.com/KMSkelton" target="_blank">
-            <span class="icon-github4 icon">
-        <span class="imageDescription">Github</span>
-            </span>
-        </a>
-        <a href="https://kmskelton.wordpress.com" target="_blank">
-            <span class="icon-wordpress icon">
-        <span class="imageDescription">Wordpress</span>
-            </span>
-        </a>
-        <a href="https://www.linkedin.com/in/kristopherskelton" target="_blank">
-            <span class="icon-linkedin icon">
-        <span class="imageDescription">LinkedIn</span>
-            </span>
-        </a>
-    </footer>
+        <div class="panel panel2">
+          <!-- Matrix background: github, repl.it, codepen -->
+          <p>Demonstrate</p>
+          <a href="https://github.com/KMSkelton" target="blank"></a>
+          <p>Through</p>
+          <a href="https://repl.it/@kmskelton/" target="blank"></a>
+          <a href="https://codepen.io/KMSkelton/" target="blank"></a>
+          <p>Coding</p>
+        </div>
+        <div class="panel panel3">
+          <!-- IDE screenshot background: projects pages -->
+          <p>Projects</p>
+          <a href="http://kmskelton.com/projects#SLUVT" target="blank"></a>
+          <a href="http://kmskelton.com/projects#kaviar" target="blank"></a>
+          <a href="http://kmskelton.com/projects#sgvdt" target="blank"></a>
+          <a href="http://kmskelton.com/projects#LFG" target="blank"></a>
+          <p>and</p>
+          <a href="http://kmskelton.com/contact" target="blank"></a>
+          <p>Contact</p>
+        </div>
+        <div class="panel panel4">
+          <!-- 3d printer hot end background: flickr, thingiverse -->
+          <p>Explore</p>
+          <p>With</p>
+          <p>Creativity</p>
+        </div>
+      </div>
+    </main>
 </body>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/columnChart.js"></script>
-<script type="text/javascript" src="js/barChart.js"></script>
+<script type="text/javascript" src="js/panels.js"></script>
 
 </html>
