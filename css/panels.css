@@ -26,36 +26,37 @@
 }
 
 
-.panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
-.panel2 { background-image:url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500); }
-.panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
-.panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
-.panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
+.panel1 { background-image:url(../assets/flaming_geyser_park.jpg); }
+.panel2 { background-image:url(../assets/coal_creek_park_bridge.jpg); }
+.panel3 { background-image:url(../assets/teneriffe_falls.jpg); }
+.panel4 { background-image:url(../assets/cassiopeia_night_day.jpg); }
 
 /* Flex Items */
 .panel > p {
-  border: 2px solid red;
   margin:0;
   width: 100%;
   opacity: 1;
   transition: transform 0.5s, opacity 4s;
-  flex: 1 0 auto;
+  flex-basis: 25%;
+  flex-grow: 0;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
-.panel > p:first-child { transform: translateY(-5000px); border: 2px solid yellow; }
+.panel > p:first-child { transform: translateY(-5000px); }
 .panel.open-active > p:first-child { transform: translateY(0); }
-.panel > p:nth-of-type(2) { transform: translateY(5000px); border: 2px solid blue; }
+.panel > p:nth-of-type(2) { transform: translateY(5000px); }
 .panel.open-active > p:nth-of-type(2) { transform: translateY(0);  }
-.panel > p:last-child { transform: translateY(-200%); border: 2px solid green;}
+.panel > p:last-child { transform: translateY(-200%); }
 .panel.open-active > p:last-child { transform: translateY(0%); }
 
 .panel.open-active > p {
   opacity: 0;
 }
-
+.panel.open-active.panel3 {
+  width: 450px;
+}
 .panel p {
   text-transform: uppercase;
   font-family: 'Amatic SC', cursive;
@@ -67,8 +68,8 @@
 } */
 
 .panel.open {
-  flex-shrink: 5;
-  font-size:40px;
+  flex-shrink: 3;
+  font-size:35px;
 }
 
 .panel > a {
@@ -84,91 +85,128 @@
   transform: translateY(0);
 }
 
+/* panel images */
 .panel1 > a:first-of-type {
   background-image: url(../assets/yt_logo_rgb_dark.png);
 }
 .panel1 > a:last-of-type {
   background-image: url(../assets/WordPress-logotype-standard.png);
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.panel2 > p:nth-of-type(3) {
+  transform: translateY(-230%);
 }
 .panel2 > a:nth-of-type(1) {
   background-image: url(../assets/github-logo.png);
 }
 .panel2 > a:nth-of-type(2) {
-  background-image: url(../assets/replit-logo-small-square.png);
+  background-image: url(../assets/codepen-wordmark-display-inside-black@10x.png);
+  background-color: rgba(255, 255, 255, 0.2)
+}
+.panel.open-active.panel2 > a:nth-of-type(2) {
+  transform: translateY(-100%);
 }
 .panel2 > a:nth-of-type(3) {
-  background-image: url(../assets/codepen-wordmark-display-inside-black@10x.png);
+  background-image: url(../assets/replit-logo-small-square.png);
 }
+
 .panel3 {
   flex: 1;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 5vmin 5vmin 5vmin;
   grid-template-rows: 125px 125px 125px 125px 125px;
   justify-items: center;
   align-items: center;
 }
 .panel3 > p {
-  grid-column: 3;
+  grid-column: 2;
   align-self: center;
 }
 .panel3 > p:nth-of-type(3) {
-  transform: translateY(0);
-  grid-row: 4;
+  transform: translateY(10px);
+  grid-row: 3;
   align-self: start;
 }
+.panel.open.panel3 {
+  font-size: 30px;
+}
+.panel.open-active.panel3 {
+  grid-template-columns: 12vmin 12vmin 12vmin;
+}
+
 .panel.open-active.panel3 > p:nth-of-type(1) {
-  transform: translateY(125%);
+  transform: translateY(75%);
 }
 .panel.open-active.panel3 > p:nth-of-type(2) {
-  transform: translateY(150%);
+  transform: translateY(100%);
 }
 .panel.open-active.panel3 > p:nth-of-type(3) {
-  transform: translateY(75%);
+  transform: translateY(125%);
 }
 .panel.open-active.panel3 > a {
   transition: transform 3s;
   border-radius: 50%;
 }
+
 .panel3 > a:nth-of-type(1) {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 2;
   background-image: url(../images/sluvt3-screen.png);
   background-size: 175px;
   height: 100px;
   width: 100px;
+  z-index: 1;
 }
 .panel3 > a:nth-of-type(2) {
-  grid-column: 4;
+  grid-column: 3;
   grid-row: 2;
   background-image: url(../images/kaviar.jpg);
   background-size: 175px;
   height: 100px;
   width: 100px;
+  z-index: 1;
 }
 .panel3 > a:nth-of-type(3) {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 3;
   background-image: url(../images/sgvdt.jpg);
   background-size: 175px;
   height: 100px;
   width: 100px;
+  z-index: 1;
 }
 .panel3 > a:nth-of-type(4) {
-  grid-column: 4;
+  grid-column: 3;
   grid-row: 3;
   background-image: url(../images/lfg2-screen.png);
   background-size: 175px;
   height: 100px;
   width: 100px;
+  z-index: 1;
 }
 .panel3 > a:nth-of-type(5) {
-  grid-column: 3;
-  grid-row: 5;
+  grid-column: 2;
+  grid-row: 4;
   background-image: url(../assets/envelope-icon.png);
   background-size: 100px;
   height: 100px;
   width: 100px;
+  z-index: 1;
 }
 .panel.open-active.panel3 a:nth-of-type(5){
   border-radius: 0;
+}
+
+.panel.open-active.panel4 {
+  transform-origin: left;
+  width: 500px;
+}
+.panel4 > a:first-of-type {
+  background-image: url(../assets/flickr-logo.jpg);
+  background-size: 100px;
+}
+.panel4 > a:last-of-type {
+  background-image: url(../assets/thingiverse.jpg);
+  background-size: 100px;
 }
