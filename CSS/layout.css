@@ -1,6 +1,6 @@
 /*This is for positioning and sizing*/
 header {
-  height: 45em;
+  height: 30em;
 }
 .aboutHeader {
   height: 30em;
@@ -18,8 +18,7 @@ header h1 {
 }
 main {
   display: block;
-  padding-left: 2em;
-  padding-right: 2em;
+  margin: 0 1%;
 }
 .aboutMain{
   padding-top: 3em;
@@ -43,6 +42,9 @@ h4, h6 {
   width: 50em;
   overflow: visible;
   margin-left: 30%;
+}
+section {
+  margin-bottom: 4vmin;
 }
 footer {
   position: relative;
@@ -97,10 +99,11 @@ footer {
 }
 .more {
   width: 100%;
+  padding: 2em 0;
 }
-.more h6 {
+/* .more h6 {
   margin: 2em 0 0;
-}
+} */
 
 #btnrefresh, #txtCaptcha {
   display: inline-block;

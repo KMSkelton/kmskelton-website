@@ -19,7 +19,7 @@
     }
     header {
       background-size: 300%;
-      background-position: top;
+      background-position: center;
     }
     header h1 {
       padding-top: 3.1em;
@@ -58,6 +58,7 @@
     }
     main {
       height: 75em;
+      margin: 0;
     }
     .aboutMe {
       width: 95%
@@ -101,6 +102,7 @@
     }
     .band {
       display: block;
+      height: 45vmin;
     }
     .band p {
       margin: 0 3em;
@@ -112,6 +114,9 @@
     .band img {
       display: block;
       margin: 2em auto 15%;
+    }
+    .band img:nth-of-type(3) {
+      height: 40vmin;
     }
     .boxy {
       display: inline-block;
@@ -145,7 +150,7 @@
     }
     header {
       background-size: 200%;
-      background-position: top;
+      background-position: center;
     }
     header h1 {
       padding-top: 2.5em;
@@ -237,7 +242,8 @@
       white-space: none;
     }
     main {
-      height: 35em;
+      height: 20%;
+      padding: 2em 0;
     }
     .aboutMain {
       height: 25em;
@@ -254,7 +260,7 @@
     footer {
       height: 5em;
       padding: 1em 0;
-      margin-top: 1%;
+      margin-top: -3%;
     }
     #RWDtext:after {
       font-size: 0.7em;
@@ -286,7 +292,7 @@
     }
     header {
       background-size: 100%;
-      background-position: top;
+      background-position: center;
     }
     .sigil {
       margin-left: 33%;
@@ -301,9 +307,8 @@
       width: 70%
     }
     #contact-area {
-      margin: auto;
+      margin: 2em auto;
       width: 35em;
-      margin-top: 2em;
     }
     #contact-area input, #contact-area textarea {
       margin: auto;
@@ -325,7 +330,7 @@
   @media screen and (min-width: 1000px) {
     header {
       background-size: 100%;
-      background-position: bottom;
+      background-position: center;
     }
     header h1 {
       padding-top: 2.5em;
@@ -367,7 +372,7 @@
   @media screen and (min-width: 1200px) {
     header {
       background-size: 100%;
-      background-position: bottom;
+      background-position: center;
     }
     .sigil {
       margin-left: 29%;
@@ -402,7 +407,7 @@
   @media screen and (min-width: 1444px) {
     header {
       background-size: 100%;
-      background-position: top;
+      background-position: center;
     }
     .aboutMain {
       height: 15em;
@@ -435,7 +440,7 @@
   @media screen and (min-width: 1700px) {
     header {
       background-size: 100%;
-      background-position: top;
+      background-position: center;
     }
     .sigil {
       margin-left: 41%;
