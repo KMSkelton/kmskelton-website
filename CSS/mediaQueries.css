@@ -20,6 +20,7 @@
     header {
       background-size: 300%;
       background-position: center;
+      margin-top: -35px;
     }
     header h1 {
       padding-top: 3.1em;
@@ -127,6 +128,18 @@
     .boxy h4 {
       font-size: 1.25em;
       margin: 0;
+    }
+    .panels {
+      flex-direction: column;
+    }
+    .panel.open {
+      font-size: 25px;
+    }
+    .panel.open-active.panel2 > a:nth-of-type(2) {
+      transform: translateY(-10%);
+    }
+    .panel.open-active.panel4 {
+      margin-left: -50px;
     }
   }
   @media screen and (min-width: 600px) {
