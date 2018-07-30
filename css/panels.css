@@ -114,7 +114,7 @@
 .panel3 {
   flex: 1;
   display: grid;
-  grid-template-columns: 5vmin 5vmin 5vmin;
+  grid-template-columns: 15vmin 15vmin 15vmin;
   grid-template-rows: 125px 125px 125px 125px 125px;
   justify-items: center;
   align-items: center;
