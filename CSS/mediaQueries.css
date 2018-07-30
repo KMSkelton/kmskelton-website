@@ -214,7 +214,18 @@
     .band:nth-child(even) .boxy {
       margin: 0 2em 2em 3em;
     }
-
+    .panels {
+      flex-direction: row;
+    }
+    /* .panel.open {
+      font-size: 25px;
+    }
+    .panel.open-active.panel2 > a:nth-of-type(2) {
+      transform: translateY(-10%);
+    }
+    .panel.open-active.panel4 {
+      margin-left: -50px;
+    } */
   }
   @media screen and (min-width: 750px) {
     .sigil {
