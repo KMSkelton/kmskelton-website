@@ -105,7 +105,7 @@
   background-color: rgba(255, 255, 255, 0.2)
 }
 .panel.open-active.panel2 > a:nth-of-type(2) {
-  transform: translateY(-100%);
+  transform: translateY(-60%);
 }
 .panel2 > a:nth-of-type(3) {
   background-image: url(../assets/replit-logo-small-square.png);
