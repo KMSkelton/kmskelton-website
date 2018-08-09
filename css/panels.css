@@ -81,7 +81,7 @@
   width: 200px;
 }
 .panel.open-active > a {
-  transition: transform 0.5s, opacity 4s;
+  transition: transform 0.5s, opacity 4.5s;
   transform: translateY(0);
 }
 
@@ -94,9 +94,6 @@
   background-color: rgba(255, 255, 255, 0.5)
 }
 
-.panel2 > p:nth-of-type(3) {
-  transform: translateY(-230%);
-}
 .panel2 > a:nth-of-type(1) {
   background-image: url(../assets/github-logo.png);
 }
@@ -107,9 +104,16 @@
 .panel.open-active.panel2 > a:nth-of-type(2) {
   transform: translateY(-60%);
 }
+.panel2 > p:nth-of-type(3) {
+  transform: translateY(-260%);
+}
 .panel2 > a:nth-of-type(3) {
   background-image: url(../assets/replit-logo-small-square.png);
 }
+.panel2 > a:nth-of-type(4) {
+  background-image: url('https://www.codewars.com/users/KMSkelton/badges/large');
+}
+
 
 .panel3 {
   flex: 1;
@@ -124,7 +128,7 @@
   align-self: center;
 }
 .panel3 > p:nth-of-type(3) {
-  transform: translateY(10px);
+  transform: translateY(20px);
   grid-row: 3;
   align-self: start;
 }
