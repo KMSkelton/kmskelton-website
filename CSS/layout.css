@@ -29,9 +29,6 @@ main h2 {
 h4, h6 {
   text-align: justify;
 }
-.disc:hover {
-  z-index: 1000;
-}
 .get {
   display: none;
 }
@@ -60,6 +57,7 @@ footer {
   left: 0;
   display: inline;
   font-size: 175%;
+  padding: 0 10px;
 }
 #diagram {
   width: 600px;
@@ -95,7 +93,8 @@ footer {
 }
 .icon {
   display: inline-block;
-  margin-top: 0.5em;
+  margin: 0.5em;
+
 }
 .more {
   width: 100%;
