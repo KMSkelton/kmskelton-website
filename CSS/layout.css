@@ -10,8 +10,8 @@ header h1 {
   z-index: 10;
 }
 #RWDtext {
-  padding: 0;
-  margin:auto;
+  padding: 0.5em;
+  margin: auto;
   text-align: center;
   position: relative;
   z-index: 10;

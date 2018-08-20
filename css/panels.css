@@ -1,5 +1,5 @@
 .panels {
-  min-height:100vh;
+  min-height:600px;
   overflow: hidden;
   display: flex;
 }
@@ -54,9 +54,6 @@
 .panel.open-active > p {
   opacity: 0;
 }
-.panel.open-active.panel3 {
-  width: 450px;
-}
 .panel p {
   text-transform: uppercase;
   font-family: 'Amatic SC', cursive;
@@ -68,7 +65,7 @@
 } */
 
 .panel.open {
-  flex-shrink: 3;
+  flex-grow: 3;
   font-size:35px;
 }
 

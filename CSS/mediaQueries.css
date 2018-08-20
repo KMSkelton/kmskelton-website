@@ -72,10 +72,10 @@
       height: 35em;
     }
     footer {
-      padding-top: 1em;
-      height: 5em;
-      padding-bottom: 1em;
-      margin-top: 90%;
+      position: absolute;
+      top: 25em;
+      min-width: 96%;
+      margin: auto;
     }
     #columnChart {
       display: none;
@@ -167,6 +167,13 @@
     }
     header h1 {
       padding-top: 2.5em;
+    }
+    footer {
+      position: relative;
+      top: -35px;
+      padding-top: 1em;
+      height: 5em;
+      padding-bottom: 1em;
     }
     .aboutMain {
       height: 30em;
@@ -277,11 +284,6 @@
     }
     .mobile--chart {
       display: none;
-    }
-    footer {
-      height: 5em;
-      padding: 1em 0;
-      margin-top: -3%;
     }
     #RWDtext:after {
       font-size: 0.7em;
