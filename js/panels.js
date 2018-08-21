@@ -1,10 +1,11 @@
 const panelArray = [...document.querySelectorAll('.panel')];
 
 function toggleOpen() {
-  console.log(panelArray)
+  // if the panel is open and we want it closed we have to refer to the panel directly. 
   if (this.classList.contains('open')){
     this.classList.remove('open');
   } else {
+    // go through all four of the panels and check whether a panel has 'open' as a class
     panelArray.forEach(panel => panel.classList.contains('open') ? panel.classList.toggle('open') : null)
     this.classList.toggle('open');
   }
@@ -17,9 +18,3 @@ function toggleActive(e) {
 }
 panelArray.forEach(panel => panel.addEventListener('click', toggleOpen));
 panelArray.forEach(panel => panel.addEventListener('transitionend', toggleActive));
-
-
-/*
-panelArray.forEach(panel => this.classList.contains('open') ? this.classList.remove('open') : null)
-panelArray.forEach(panel => panel.classList.contains('open-active') ? panel.classList.remove('open-active') : null)
-*/
