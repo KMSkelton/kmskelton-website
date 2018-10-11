@@ -134,6 +134,5 @@ height: 7em;
 }
 
 .u-visually-hidden {
-  display: inline;
   opacity: 0;
 }
