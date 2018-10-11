@@ -1,6 +1,6 @@
 /*This is for positioning and sizing*/
 header {
-  height: 45em;
+  height: 30em;
 }
 .aboutHeader {
   height: 30em;
@@ -10,16 +10,15 @@ header h1 {
   z-index: 10;
 }
 #RWDtext {
-  padding: 0;
-  margin:auto;
+  padding: 0.5em;
+  margin: auto;
   text-align: center;
   position: relative;
   z-index: 10;
 }
 main {
   display: block;
-  padding-left: 2em;
-  padding-right: 2em;
+  margin: 0 1%;
 }
 .aboutMain{
   padding-top: 3em;
@@ -29,9 +28,6 @@ main h2 {
 }
 h4, h6 {
   text-align: justify;
-}
-.disc:hover {
-  z-index: 1000;
 }
 .get {
   display: none;
@@ -43,6 +39,9 @@ h4, h6 {
   width: 50em;
   overflow: visible;
   margin-left: 30%;
+}
+section {
+  margin-bottom: 4vmin;
 }
 footer {
   position: relative;
@@ -58,6 +57,7 @@ footer {
   left: 0;
   display: inline;
   font-size: 175%;
+  padding: 0 10px;
 }
 #diagram {
   width: 600px;
@@ -93,18 +93,47 @@ footer {
 }
 .icon {
   display: inline-block;
-  margin-top: 0.5em;
+  margin: 0.5em;
+
 }
 .more {
   width: 100%;
+  padding: 2em 0;
 }
-.more h6 {
+/* .more h6 {
   margin: 2em 0 0;
-}
+} */
 
 #btnrefresh, #txtCaptcha {
   display: inline-block;
   line-height: 3em;
   max-width: 20em;
   margin: auto;
+}
+.contact__button--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.contact__button {
+margin: 1.5em auto;
+height: 7em;
+}
+.contact__button--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.contact__button {
+margin: 1.5em auto;
+height: 7em;
+}
+
+.u-visually-hidden {
+  opacity: 0;
+  display: inline;
 }
