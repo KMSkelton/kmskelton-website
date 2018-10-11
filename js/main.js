@@ -20,16 +20,16 @@ $(document).ready(function() {
 });
 
 
-//Created / Generates the captcha function
+// Generates the captcha function
 
 function drawCaptcha() {
-  var a = Math.ceil(Math.random() * 6) + '';
-  var b = Math.ceil(Math.random() * 6) + '';
-  var c = Math.ceil(Math.random() * 6) + '';
-  var d = Math.ceil(Math.random() * 6) + '';
-  var e = Math.ceil(Math.random() * 6) + '';
-  var f = Math.ceil(Math.random() * 6) + '';
-  var g = Math.ceil(Math.random() * 6) + '';
+  var a = Math.ceil(Math.random() * 9) + '';
+  var b = Math.ceil(Math.random() * 9) + '';
+  var c = Math.ceil(Math.random() * 9) + '';
+  var d = Math.ceil(Math.random() * 9) + '';
+  var e = Math.ceil(Math.random() * 9) + '';
+  var f = Math.ceil(Math.random() * 9) + '';
+  var g = Math.ceil(Math.random() * 9) + '';
   var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' ' + f;
   document.getElementById("txtCaptcha").value = code
 }
@@ -37,9 +37,9 @@ function drawCaptcha() {
 (function() {
   if ( document.getElementById("txtCaptcha") ) {
   drawCaptcha();
-} else {
-  return false;
-}
+  } else {
+    return false;
+  }
 })();
 
 // Remove the spaces from the entered and generated code
