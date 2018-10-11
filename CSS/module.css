@@ -29,7 +29,7 @@
     background-color: rgba(100, 100, 100, 0.3);
   }
   h2, h3, h4, h5, h6, p {
-    font-family: "Playfair Display SC", serif;
+    font-family: "Raleway", serif;
   }
   .disc {
     border-radius: 100%;
@@ -48,20 +48,21 @@
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     color: #fff;
-    font-family: "Playfair Display SC", serif;
+    font-family: "Raleway", serif;
   }
   footer {
-    background-color: #000;
+    background-color: #fff;
   }
   .icon {
-    color: #435c78
+    color: #deaf5d
   }
   .icon:hover {
-    color: #deaf5d;
+    color: #0073ff;
   }
   .imageDescription {
     background: rgba(29, 106, 154, 0.72);
     color: #fff;
+    font-family: "Raleway", serif;
     visibility: hidden;
   }
   a:hover .imageDescription {
@@ -79,7 +80,12 @@
 .more {
   background-color: rgba(100, 100, 100, 0.3);
 }
-
-form p {
-  font-size: 14px;
+.contact__button {
+  border-radius: 1em;
+}
+.button--text{
+  color: #000;
+  font-family: "Raleway", serif;
+  font-size: 2em;
+  padding: 0.2em;
 }
