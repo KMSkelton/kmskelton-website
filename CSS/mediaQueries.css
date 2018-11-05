@@ -1,4 +1,9 @@
-  @media screen and (min-width: 250px) {
+  @media screen and (min-width: 250px) and (max-width: 649px) {
+    body {
+      width: 40rem;
+      margin: 0 50% 0 1%;
+    }
+
     h1 {
       font-size: 3.0em;
     }
@@ -21,13 +26,13 @@
       background-size: 300%;
       background-position: center;
       margin-top: -35px;
+      width: 60%;
     }
     header h1 {
       padding-top: 3.1em;
     }
     .sigil {
-      max-width: 85%;
-      margin-left: 10%;
+      width: 100%;
       position: absolute;
       top: -1em;
       z-index: 1;
@@ -58,8 +63,10 @@
       top: 96em;
     }
     main {
-      height: 75em;
+      height: 35em;
       margin: 0;
+      width: 45%;
+      padding: 2rem;
     }
     .aboutMe {
       width: 95%
@@ -73,9 +80,11 @@
     }
     footer {
       position: absolute;
-      top: 25em;
-      min-width: 96%;
-      margin: auto;
+      top: 27em;
+      width: 40rem;
+    }
+   .icon {
+      font-size: 60%;
     }
     #columnChart {
       display: none;
@@ -103,10 +112,15 @@
     }
     .band {
       display: block;
+<<<<<<< Updated upstream
       height: 45vmin;
+=======
+      height: -1vmin;
+>>>>>>> Stashed changes
     }
     .band p {
-      margin: 0 3em;
+      margin: 0.5rem;
+      width: 55%;
     }
     .band h3 {
       font-size: 1.8em;
@@ -114,7 +128,8 @@
     }
     .band img {
       display: block;
-      margin: 2em auto 15%;
+      margin: 0 1.5rem;
+      width: 50%;
     }
     .band img:nth-of-type(3) {
       height: 40vmin;
@@ -140,6 +155,10 @@
     }
     .panel.open-active.panel4 {
       margin-left: -50px;
+    }
+    .more {
+      width: 45%;
+      padding: 2rem 2rem 2rem 1rem;
     }
   }
   @media screen and (min-width: 600px) {
