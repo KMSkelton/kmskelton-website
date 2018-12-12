@@ -29,7 +29,7 @@
     background-color: rgba(100, 100, 100, 0.3);
   }
   h2, h3, h4, h5, h6, p {
-    font-family: "Raleway", serif;
+    font-family: "Arapey", serif;
   }
   .disc {
     border-radius: 100%;
@@ -48,7 +48,7 @@
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     color: #fff;
-    font-family: "Raleway", serif;
+    font-family: "Arapey", serif;
   }
   footer {
     background-color: #fff;
@@ -62,7 +62,7 @@
   .imageDescription {
     background: rgba(29, 106, 154, 0.72);
     color: #fff;
-    font-family: "Raleway", serif;
+    font-family: "Arapey", serif;
     visibility: hidden;
   }
   a:hover .imageDescription {
@@ -85,7 +85,7 @@
 }
 .button--text{
   color: #000;
-  font-family: "Raleway", serif;
+  font-family: "Arapey", serif;
   font-size: 2em;
   padding: 0.2em;
 }
