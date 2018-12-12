@@ -4,7 +4,7 @@
   background-position: top;
   }
   header h1 {
-    font-family: "Pathway Gothic One";
+    font-family: "Montserrat";
     text-align: center;
     text-shadow: 2px 2px 0px black;
     color: rgb(150, 150, 150);
@@ -72,7 +72,7 @@
     background-color: rgba(255, 255, 255, 1);
   }
   .band h3 {
-    font-family: "Pathway Gothic One", sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .band:nth-child(even) {
     background-color: rgba(200, 200, 200, 0.2);
