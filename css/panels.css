@@ -146,7 +146,7 @@
   transform: translateY(125%);
 }
 .panel.open-active.panel3 > a {
-  transition: transform 3s;
+  transition: transform 0.5s;
   border-radius: 50%;
 }
 
