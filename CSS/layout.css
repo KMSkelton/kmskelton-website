@@ -10,12 +10,10 @@ header h1 {
   z-index: 10;
 }
 #RWDtext {
-  padding: 5rem;
-  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   position: relative;
   z-index: 10;
-  font-family: "Montserrat";
 }
 main {
   display: block;
@@ -32,14 +30,6 @@ h4, h6 {
 }
 .get {
   display: none;
-}
-.skills__graph {
-  display: block;
-  left: 27%;
-  height: 50em;
-  width: 50em;
-  overflow: visible;
-  margin-left: 30%;
 }
 section {
   margin-bottom: 4vmin;
@@ -68,27 +58,6 @@ footer {
   width: auto;
   padding: 0.1em;
 }
-.horizontal .progress-bar {
-  float: left;
-  height: 3em;
-  width: 100%;
-  /*padding: 0.5em 0;*/
-}
-.horizontal .progress-track {
-  position: relative;
-  width: 100%;
-  height: 1.5em;
-}
-.horizontal .progressFill {
-  position: relative;
-  /*height: 1.5em;*/
-  width: 50%;
-  text-align: center;
-  line-height: 1.5em;
-}
-.mobile--chart h2 {
-  text-align: center;
-}
 .hide {
   display: none;
 }
@@ -101,9 +70,6 @@ footer {
   width: 100%;
   padding: 2em 0;
 }
-/* .more h6 {
-  margin: 2em 0 0;
-} */
 
 #btnrefresh, #txtCaptcha {
   display: inline-block;
@@ -135,8 +101,7 @@ height: 7em;
 }
 
 .u-visually-hidden {
-  position: relative;
-  z-index: -1000;
-  opacity: 0;
-  height: 0;
-}
+  position: absolute;
+  left: -9999rem;
+  top: -9999rem;
+;}

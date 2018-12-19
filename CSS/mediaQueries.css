@@ -1,9 +1,4 @@
-  @media screen and (min-width: 250px) and (max-width: 649px) {
-    body {
-      width: 40rem;
-      margin: 0 50% 0 1%;
-    }
-
+  @media screen and (min-width: 250px) {
     h1 {
       font-size: 3.0em;
     }
@@ -26,16 +21,9 @@
       background-size: 300%;
       background-position: center;
       margin-top: -35px;
-      width: 60%;
     }
     header h1 {
       padding-top: 3.1em;
-    }
-    .sigil {
-      width: 100%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
     }
     .img1 {
       margin: 10%;
@@ -63,38 +51,30 @@
       top: 96em;
     }
     main {
-      height: 35em;
+      height: 75em;
       margin: 0;
-      width: 45%;
-      padding: 2rem;
     }
     .aboutMe {
-      width: 95%
+      width: 95%;
     }
-    .aboutMe h6:before {
-      content: "\a";
-      white-space: pre;
+    .aboutMe p {
+      font-family: "Lora";
+      font-size: 22px;
     }
     .aboutMain {
       height: 35em;
     }
     footer {
       position: absolute;
-      top: 27em;
-      width: 40rem;
-    }
-   .icon {
-      font-size: 60%;
+      top: 25em;
+      min-width: 96%;
+      margin: auto;
     }
     #columnChart {
       display: none;
     }
     .mobile--chart {
       display: block;
-    }
-    #RWDtext:after {
-      font-size: 0.7em;
-      content: "(try me on your desktop)"
     }
     #contact-area {
       margin-left: 0.3em;
@@ -112,15 +92,10 @@
     }
     .band {
       display: block;
-<<<<<<< Updated upstream
       height: 45vmin;
-=======
-      height: -1vmin;
->>>>>>> Stashed changes
     }
     .band p {
-      margin: 0.5rem;
-      width: 55%;
+      margin: 0 3em;
     }
     .band h3 {
       font-size: 1.8em;
@@ -128,8 +103,7 @@
     }
     .band img {
       display: block;
-      margin: 0 1.5rem;
-      width: 50%;
+      margin: 2em auto 15%;
     }
     .band img:nth-of-type(3) {
       height: 40vmin;
@@ -155,10 +129,6 @@
     }
     .panel.open-active.panel4 {
       margin-left: -50px;
-    }
-    .more {
-      width: 45%;
-      padding: 2rem 2rem 2rem 1rem;
     }
   }
   @media screen and (min-width: 600px) {
@@ -196,12 +166,6 @@
     }
     .aboutMain {
       height: 30em;
-    }
-    .sigil {
-      margin-left: 20%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
     }
     .band {
       display: inline-block;
@@ -251,9 +215,6 @@
     }
   }
   @media screen and (min-width: 750px) {
-    .sigil {
-      margin-left: 25%;
-    }
     .img1 {
       margin: none;
       left: 10em;
@@ -284,10 +245,6 @@
       top: 51em;
       z-index: 30;
     }
-    .aboutMe h6:before {
-      content: none;
-      white-space: none;
-    }
     main {
       height: 20%;
       padding: 2em 0;
@@ -303,10 +260,6 @@
     }
     .mobile--chart {
       display: none;
-    }
-    #RWDtext:after {
-      font-size: 0.7em;
-      content: "(tablets are different from desktop or mobile)"
     }
   }
   @media screen and (min-width: 830px) {
@@ -335,9 +288,6 @@
     header {
       background-size: 100%;
       background-position: center;
-    }
-    .sigil {
-      margin-left: 33%;
     }
     #columnChart {
       display: block;
@@ -377,12 +327,6 @@
     header h1 {
       padding-top: 2.5em;
     }
-    .sigil {
-      margin-left: 31%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
-    }
     .aboutMain {
       height: 25em;
     }
@@ -406,24 +350,11 @@
       left: 34em;
       top: 53em;
     }
-    #RWDtext:after {
-      font-size: 0.7em;
-      content: "(try me on mobile)"
-    }
   }
   @media screen and (min-width: 1200px) {
     header {
       background-size: 100%;
       background-position: center;
-    }
-    .sigil {
-      margin-left: 29%;
-    }
-    .sigil {
-      margin-left: 36%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
     }
     .img1 {
       left: 23em;
@@ -454,9 +385,6 @@
     .aboutMain {
       height: 15em;
     }
-    .sigil {
-      margin-left: 41%;
-    }
     .img1 {
       left: 27em;
       top: 40em;
@@ -483,9 +411,6 @@
     header {
       background-size: 100%;
       background-position: center;
-    }
-    .sigil {
-      margin-left: 41%;
     }
     .img1 {
       left: 36em;
