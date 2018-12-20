@@ -11,8 +11,9 @@ header h1 {
 }
 #RWDtext {
   font-family: "Montserrat", sans-serif;
-  text-align: center;
   position: relative;
+  padding-top: 10rem;
+  text-align: center;
   z-index: 10;
 }
 main {

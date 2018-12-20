@@ -18,7 +18,8 @@
       font-size: 1.1em;
     }
     header {
-      background-size: 300%;
+      background-color: #4f4f4f;
+      background-size: 100%;
       background-position: center;
       margin-top: -35px;
     }
