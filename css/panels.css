@@ -60,9 +60,6 @@
   text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
   font-size: 2em;
 }
-/* .panel p:nth-child(2) {
-  font-size: 4em;
-} */
 
 .panel.open {
   flex-grow: 3;
@@ -119,6 +116,9 @@
   grid-template-rows: 200px 200px 200px 200px;
   justify-items: center;
   align-items: center;
+  font-family: "Montserrat";
+  font-size: 30px;
+
 }
 .panel3 > p {
   grid-column: 2;
@@ -146,7 +146,7 @@
   transform: translateY(125%);
 }
 .panel.open-active.panel3 > a {
-  transition: transform 3s;
+  transition: transform .75s;
   border-radius: 50%;
 }
 
@@ -170,7 +170,7 @@
 .panel3 > a:nth-of-type(3) {
   grid-column: 2;
   grid-row: 3;
-  background-image: url(../images/sgvdt.jpg);
+  background-image: url(../images/scoringApp.png);
 }
 .panel3 > a:nth-of-type(4) {
   grid-column: 2;
@@ -179,7 +179,7 @@
 }
 
 
-.panel.open-active.panel4 {
+/* .panel.open-active.panel4 {
   transform-origin: left;
   width: 500px;
 }
@@ -190,4 +190,4 @@
 .panel4 > a:last-of-type {
   background-image: url(../assets/thingiverse.jpg);
   background-size: 100px;
-}
+} */

@@ -25,13 +25,6 @@
     header h1 {
       padding-top: 3.1em;
     }
-    .sigil {
-      max-width: 85%;
-      margin-left: 10%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
-    }
     .img1 {
       margin: 10%;
       position: absolute;
@@ -62,11 +55,11 @@
       margin: 0;
     }
     .aboutMe {
-      width: 95%
+      width: 95%;
     }
-    .aboutMe h6:before {
-      content: "\a";
-      white-space: pre;
+    .aboutMe p {
+      font-family: "Lora";
+      font-size: 22px;
     }
     .aboutMain {
       height: 35em;
@@ -82,10 +75,6 @@
     }
     .mobile--chart {
       display: block;
-    }
-    #RWDtext:after {
-      font-size: 0.7em;
-      content: "(try me on your desktop)"
     }
     #contact-area {
       margin-left: 0.3em;
@@ -178,12 +167,6 @@
     .aboutMain {
       height: 30em;
     }
-    .sigil {
-      margin-left: 20%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
-    }
     .band {
       display: inline-block;
       width: 100%;
@@ -232,9 +215,6 @@
     }
   }
   @media screen and (min-width: 750px) {
-    .sigil {
-      margin-left: 25%;
-    }
     .img1 {
       margin: none;
       left: 10em;
@@ -265,10 +245,6 @@
       top: 51em;
       z-index: 30;
     }
-    .aboutMe h6:before {
-      content: none;
-      white-space: none;
-    }
     main {
       height: 20%;
       padding: 2em 0;
@@ -284,10 +260,6 @@
     }
     .mobile--chart {
       display: none;
-    }
-    #RWDtext:after {
-      font-size: 0.7em;
-      content: "(tablets are different from desktop or mobile)"
     }
   }
   @media screen and (min-width: 830px) {
@@ -316,9 +288,6 @@
     header {
       background-size: 100%;
       background-position: center;
-    }
-    .sigil {
-      margin-left: 33%;
     }
     #columnChart {
       display: block;
@@ -358,12 +327,6 @@
     header h1 {
       padding-top: 2.5em;
     }
-    .sigil {
-      margin-left: 31%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
-    }
     .aboutMain {
       height: 25em;
     }
@@ -387,24 +350,11 @@
       left: 34em;
       top: 53em;
     }
-    #RWDtext:after {
-      font-size: 0.7em;
-      content: "(try me on mobile)"
-    }
   }
   @media screen and (min-width: 1200px) {
     header {
       background-size: 100%;
       background-position: center;
-    }
-    .sigil {
-      margin-left: 29%;
-    }
-    .sigil {
-      margin-left: 36%;
-      position: absolute;
-      top: -1em;
-      z-index: 1;
     }
     .img1 {
       left: 23em;
@@ -435,9 +385,6 @@
     .aboutMain {
       height: 15em;
     }
-    .sigil {
-      margin-left: 41%;
-    }
     .img1 {
       left: 27em;
       top: 40em;
@@ -464,9 +411,6 @@
     header {
       background-size: 100%;
       background-position: center;
-    }
-    .sigil {
-      margin-left: 41%;
     }
     .img1 {
       left: 36em;
