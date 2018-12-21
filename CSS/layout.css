@@ -105,6 +105,6 @@ height: 7em;
 
 .u-visually-hidden {
   position: absolute;
-  left: -9999rem;
-  top: -9999rem;
+  left: -9999em;
+  top: -9999em;
 ;}
