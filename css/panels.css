@@ -79,7 +79,7 @@
 
 /* panel images */
 .panel1 > a:first-of-type {
-  background-image: url(../assets/yt_logo_rgb_dark.png);
+  background-image: url(../assets/yt_logo_rgb_dark.jpg);
 }
 .panel1 > a:last-of-type {
   background-image: url(../assets/WordPress-logotype-standard.png);
@@ -89,7 +89,7 @@
 /* PANEL 2 */
 
 .panel2 > a:nth-of-type(1) {
-  background-image: url(../assets/github-logo.png);
+  background-image: url(../assets/github-logo.jpg);
 }
 .panel2 > a:nth-of-type(2) {
   background-image: url(../assets/codepen-wordmark-display-inside-black@10x.png);
@@ -102,7 +102,7 @@
   transform: translateY(-260%);
 }
 .panel2 > a:nth-of-type(3) {
-  background-image: url(../assets/replit-logo-small-square.png);
+  background-image: url(../assets/replit-logo-small-square.jpg);
 }
 .panel2 > a:nth-of-type(4) {
   background-image: url('https://www.codewars.com/users/KMSkelton/badges/large');
@@ -158,22 +158,22 @@
 .panel3 > a:nth-of-type(1) {
   grid-column: 2;
   grid-row: 1;
-  background-image: url(../images/sluvt3-screen.png);
+  background-image: url(../assets/sluvt3-screen.jpg);
 }
 .panel3 > a:nth-of-type(2) {
   grid-column: 2;
   grid-row: 2;
-  background-image: url(../images/kaviar.jpg);
+  background-image: url(../assets/kaviar.jpg);
 }
 .panel3 > a:nth-of-type(3) {
   grid-column: 2;
   grid-row: 3;
-  background-image: url(../images/scoringApp.png);
+  background-image: url(../assets/scoringApp.jpg);
 }
 .panel3 > a:nth-of-type(4) {
   grid-column: 2;
   grid-row: 4;
-  background-image: url(../images/lfg2-screen.png);
+  background-image: url(../assets/lfg2-screen.jpg);
 }
 
 
