@@ -117,8 +117,6 @@
   justify-items: center;
   align-items: center;
   font-family: "Montserrat";
-  font-size: 30px;
-
 }
 .panel3 > p {
   grid-column: 2;
