@@ -19,10 +19,13 @@
     }
     header {
       background: url("../assets/header.jpg") no-repeat center center fixed;
+      background-attachment: scroll;
       background-color: #4f4f4f;
-      background-size: 100%;
       background-position: center;
       margin-top: -35px;
+      -o-background-size: contain;
+      -moz-background-size: contain;
+      -webkit-background-size: contain;
     }
     header h1 {
       padding-top: 3.1em;
@@ -53,7 +56,8 @@
       top: 96em;
     }
     main {
-      height: 75em;
+      padding-top: 2em;
+      height: 15em;
       margin: 0;
     }
     .aboutMe {
@@ -69,7 +73,7 @@
     footer {
       position: absolute;
       top: 25em;
-      min-width: 96%;
+      min-width: 100%;
       margin: auto;
     }
     #columnChart {
@@ -79,6 +83,7 @@
       display: block;
     }
     #contact-area {
+      margin-top: 1em;
       margin-left: 0.3em;
       width: 20em;
     }
@@ -133,8 +138,7 @@
       margin-left: -50px;
     }
     #RWDtext {
-      padding-top: 11.5rem;
-      padding-bottom: 5rem;
+      padding: 3.3em 0;
     }  
   }
   @media screen and (min-width: 600px) {
@@ -222,10 +226,10 @@
   }
   @media screen and (min-width: 750px) {
     header {
-      background: url("../assets/header2.jpg") no-repeat center center fixed;
+      background: url("../assets/header2.png") no-repeat center center fixed;
     }
     #RWDtext {
-      padding: 12rem 0;
+      padding: 12em 0;
     }
     .img1 {
       margin: none;
@@ -276,7 +280,7 @@
   @media screen and (min-width: 830px) {
     h1, h2, h3, h4, h5, h6 {
       margin-top: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 2em;
     }
     h1 {
       font-size: 4.0em;
