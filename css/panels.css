@@ -25,12 +25,6 @@
   flex-direction: column;
 }
 
-
-.panel1 { background-image:url(../assets/flaming_geyser_park.jpg); }
-.panel2 { background-image:url(../assets/coal_creek_park_bridge.jpg); }
-.panel3 { background-image:url(../assets/teneriffe_falls.jpg); }
-.panel4 { background-image:url(../assets/cassiopeia_night_day.jpg); }
-
 /* Flex Items */
 .panel > p {
   margin:0;
@@ -79,6 +73,10 @@
   transform: translateY(0);
 }
 
+.panel1 { background-image:url(../assets/flaming_geyser_park.jpg); }
+.panel2 { background-image:url(../assets/coal_creek_park_bridge.jpg); }
+.panel3 { background-image:url(../assets/teneriffe_falls.jpg); }
+
 /* panel images */
 .panel1 > a:first-of-type {
   background-image: url(../assets/yt_logo_rgb_dark.png);
@@ -87,6 +85,8 @@
   background-image: url(../assets/WordPress-logotype-standard.png);
   background-color: rgba(255, 255, 255, 0.5)
 }
+
+/* PANEL 2 */
 
 .panel2 > a:nth-of-type(1) {
   background-image: url(../assets/github-logo.png);
@@ -108,7 +108,7 @@
   background-image: url('https://www.codewars.com/users/KMSkelton/badges/large');
 }
 
-
+/* PANEL 3 */
 .panel3 {
   flex: 1;
   display: grid;

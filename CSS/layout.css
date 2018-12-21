@@ -1,6 +1,8 @@
 /*This is for positioning and sizing*/
 header {
+  border: 2px solid transparent;
   height: 30em;
+  padding-bottom: 5%;
 }
 .aboutHeader {
   height: 30em;
@@ -10,15 +12,15 @@ header h1 {
   z-index: 10;
 }
 #RWDtext {
+  background: #4f4f4f;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  padding-top: 10rem;
   text-align: center;
   z-index: 10;
 }
 main {
   display: block;
-  margin: 0 1%;
+  margin: 0% 1%;
 }
 .aboutMain{
   padding-top: 3em;
