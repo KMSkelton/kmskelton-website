@@ -99,7 +99,13 @@
     }
     .band {
       display: block;
-      height: 45vmin;
+      height: 50vmin;
+    }
+    .band.minesweeper {
+      height: 65vmin;
+    }
+    .band.minesweeper a {
+      margin-left: 2.5em;
     }
     .band p {
       margin: 0 3em;
@@ -110,10 +116,7 @@
     }
     .band img {
       display: block;
-      margin: 2em auto 15%;
-    }
-    .band img:nth-of-type(3) {
-      height: 40vmin;
+      margin: 2em auto 3em;
     }
     .boxy {
       display: inline-block;
