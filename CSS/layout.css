@@ -1,4 +1,4 @@
-/*This is for positioning and sizing*/
+/*This is for positioning and sizing irrespective of media query*/
 header {
   border: 2px solid transparent;
   height: 30em;
@@ -6,10 +6,6 @@ header {
 }
 .aboutHeader {
   height: 30em;
-}
-header h1 {
-  position: relative;
-  z-index: 10;
 }
 #RWDtext {
   background: #4f4f4f;
@@ -33,13 +29,6 @@ h4, h6 {
 }
 .get {
   display: none;
-}
-section {
-  margin-bottom: 4vmin;
-}
-footer {
-  position: relative;
-  display: block;
 }
 .aboutMe {
   margin: auto;
@@ -107,4 +96,4 @@ height: 7em;
   position: absolute;
   left: -9999em;
   top: -9999em;
-;}
+}

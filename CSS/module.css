@@ -1,65 +1,67 @@
-/*This is for fonts and colors*/
-  header h1 {
-    font-family: "Montserrat";
-    text-align: center;
-    text-shadow: 2px 2px 0px black;
-    color: rgb(150, 150, 150);
-  }
-  header h2 {
-    text-shadow: 2px 2px 3px black;
-    color: rgb(175, 175, 175);
-  }
-  #header {
-    display: block;
-  }
-  #header:hover {
-    color: rgb(200, 200, 200);
-  }
-  a {
-    text-decoration: none;
-  }
-  main {
-    background-color: rgba(100, 100, 100, 0.3);
-  }
-  h2, h3, h4, h5, h6, p {
-    font-family: "Lora", serif;
-  }
-  footer {
-    background-color: #fff;
-  }
-  .icon {
-    color: #deaf5d
-  }
-  .icon:hover {
-    color: #0073ff;
-  }
-  .imageDescription {
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    font-family: "Lora", serif;
-    visibility: hidden;
-  }
-  a:hover .imageDescription {
-    visibility: visible;
-  }
-  .band {
-    background-color: rgba(255, 255, 255, 1);
-  }
-  .band h3 {
-    font-family: "Montserrat", sans-serif;
-  }
-  .band:nth-child(even) {
-    background-color: rgba(200, 200, 200, 0.2);
-  }
-.more {
+/* This is for fonts and colors */
+a {
+  text-decoration: none;
+}
+a:hover .imageDescription {
+  visibility: visible;
+}
+a, p, link {
+  font-family: 'Lora', serif;
+}
+footer {
+  background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+header h1 {
+  text-align: center;
+  text-shadow: 2px 2px 0px black;
+  color: rgb(150, 150, 150);
+}
+header h2 {
+  text-shadow: 2px 2px 3px black;
+  color: rgb(175, 175, 175);
+}
+main {
   background-color: rgba(100, 100, 100, 0.3);
 }
-.contact__button {
-  border-radius: 1em;
+#header {
+  display: block;
+}
+#header:hover {
+  color: rgb(200, 200, 200);
+}
+.band {
+  background-color: rgba(255, 255, 255, 1);
+}
+.band h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.band:nth-child(even) {
+  background-color: rgba(200, 200, 200, 0.2);
 }
 .button--text{
   color: #000;
   font-family: "Lora", serif;
   font-size: 2em;
   padding: 0.2em;
+}
+.contact__button {
+  border-radius: 1em;
+}
+.icon {
+  color: #deaf5d
+}
+.icon:hover {
+  color: #0073ff;
+}
+.imageDescription {
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  font-family: "Lora", serif;
+  visibility: hidden;
+}
+.more {
+  background-color: rgba(100, 100, 100, 0.3);
 }
