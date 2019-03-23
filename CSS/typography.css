@@ -26,27 +26,46 @@ font-family: 'Montserrat', sans-serif, 'Lora', serif;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-size: 5.5vh;
+}
+h2 {
+  font-size: 4.7vh;
+}
+h3 {
+  font-size: 4.1vh;
+}
+h4 {
+  font-size: 3.vh;
+}
+h5 {
+  font-size: 2.5vh;
+}
+h6 {
+  font-size: 2vh;
+}
+
 .icon-envelop:before {
 	content: "\e945";
-  font-size: 400%;
+  font-size: 325%;
 }
 .icon-twitter:before {
 	content: "\ea91";
-  font-size: 400%;
+  font-size: 325%;
 }
 .icon-github4:before {
 	content: "\eab4";
-  font-size: 400%;
+  font-size: 325%;
 }
 .icon-linkedin:before {
 	content: "\eac8";
-  font-size: 400%;
+  font-size: 325%;
 }
 .icon-home:before {
     content: "\e900";
-		font-size: 400%;
+		font-size: 325%;
 }
 .icon-wordpress:before {
     content: "\eab6";
-		font-size: 400%;
+		font-size: 325%;
 }
