@@ -4,7 +4,7 @@
     margin: 0 auto;
     position: absolute;
     text-align: center;
-    top: 56vh;
+    top: 135vw;
     width: 100vw;
   }
   header {
@@ -17,15 +17,11 @@
     -moz-background-size: contain;
     -webkit-background-size: contain;
   }
-  header h2 {
-    padding-top: 3.1rem;
-  }
   label {
     float: left;
     text-align: justify;
     margin-right: 1.5rem;
     width: 10rem;
-    font-size: 1.5vh;
   }
   main {
     padding-top: 2rem;
@@ -41,7 +37,10 @@
     width: 30rem;
   }
   #RWDtext {
-    padding: 8rem 0;
+    height: 25vh;
+    margin: -1vh -5vw;
+    padding: 33vh 0;
+    width: 110vw;
   }  
   .aboutMe {
     width: 95%;
@@ -152,6 +151,11 @@
     margin-left: -50px;
   }
 }
+@media screen and (min-width: 370px) {
+  footer {
+    top: 115vw;
+  }
+}
 @media screen and (min-width: 720px) {
   footer {
     top: 43vh;
@@ -160,8 +164,11 @@
     background-size: 100%;
   }
   #RWDtext {
-    padding: 9rem 0;
-  }
+    height: 20vh;
+    margin: -1vh -5vw;
+    padding: 15vh 0;
+    width: 110vw;
+  }  
   .band {
     grid-template-rows: 15vmin 30vmin 30vmin 30vmin 15vmin [buttons] 10vmin; /* 30vmin 50vmin 50vmin 50vmin 30vmin [buttons] 30vmin; */
     height: 130vmin;
@@ -195,6 +202,7 @@
   }
 }
 @media screen and (min-width: 830px) {
+  
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -234,12 +242,6 @@
     display: block;
     width: 10rem;
   }
-  #RWDtext {
-    padding: 10.5rem 0;
-  }  
-  label {
-    font-size: 2rem;
-  }
 }
 @media screen and (min-width: 1000px) {
   footer {
@@ -254,7 +256,10 @@
     width: 50%;
   }  
   #RWDtext {
-    padding: 12rem 0;
+    height: 15vh;
+    margin: -1vh -5vw;
+    padding: 13vh 0;
+    width: 110vw;
   }  
   .aboutMain {
     height: 25rem;
