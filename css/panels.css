@@ -156,11 +156,11 @@
   z-index: 1;
 
 }
-.panel3 > a:nth-of-type(1) {
+/* .panel3 > a:nth-of-type(1) {
   grid-column: 2;
   grid-row: 1;
   background-image: url(../assets/sluvt3-screen.jpg);
-}
+} */
 .panel3 > a:nth-of-type(2) {
   grid-column: 2;
   grid-row: 2;
