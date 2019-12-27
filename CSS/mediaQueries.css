@@ -8,14 +8,13 @@
     width: 100vw;
   }
   header {
-    background: url("../assets/header.jpg") no-repeat center center fixed;
+    background: url("../assets/fullname.png") fixed;
     background-attachment: scroll;
     background-color: #4f4f4f;
-    background-position: center;
-    margin-top: -35px;
-    -o-background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
+    background-size: 100%;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
   }
   label {
     float: left;
@@ -24,7 +23,7 @@
     width: 10rem;
   }
   main {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     min-height: 25vh;
     margin: 0;
   }
@@ -38,9 +37,7 @@
   }
   #RWDtext {
     height: 25vh;
-    margin: -1vh -5vw;
-    padding: 33vh 0;
-    width: 110vw;
+    padding-top: 10vh;
   }  
   .aboutMe {
     width: 95%;
@@ -160,15 +157,6 @@
   footer {
     top: 43vh;
   }
-  header {
-    background-size: 100%;
-  }
-  #RWDtext {
-    height: 20vh;
-    margin: -1vh -5vw;
-    padding: 15vh 0;
-    width: 110vw;
-  }  
   .band {
     grid-template-rows: 15vmin 30vmin 30vmin 30vmin 15vmin [buttons] 10vmin; /* 30vmin 50vmin 50vmin 50vmin 30vmin [buttons] 30vmin; */
     height: 130vmin;
@@ -248,18 +236,9 @@
     padding-top: 2rem;
     position: static;
   }  
-  header h2 {
-    padding-top: 2rem;
-  }
   p {
     margin: 0 auto;
     width: 50%;
-  }  
-  #RWDtext {
-    height: 20vh;
-    margin: -1vh -5vw;
-    padding: 20vh 0;
-    width: 110vw;
   }  
   .aboutMain {
     height: 25rem;

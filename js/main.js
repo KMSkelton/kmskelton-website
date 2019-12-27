@@ -1,15 +1,21 @@
-$(document).ready(function () {
-  var slideMe = function () {
-    $("#RWDtext").slideToggle("slow");
-  }
-  setTimeout(function () {
-    slideMe();
-  }, 1500);
-  $("#headerText").click(function () {
-    slideMe();
-  });
-});
-
+const headerImg = document.getElementById('headerText')
+const headerText = document.getElementById('RWDtext')
+window.onload = () => {
+  setTimeout( () => {
+    slidePanel()
+  }, 1000 )
+}
+const slidePanel = () => {
+  setTimeout( () => {
+    headerImg.setAttribute('class', 'open')
+    headerText.setAttribute('class', 'gone')    
+  }, 1000)
+}
+headerImg.addEventListener( 'click', () => {
+  headerImg.removeAttribute('class', 'open')
+  headerText.removeAttribute('class', 'gone')    
+  slidePanel()
+})
 // Generates the captcha function
 
 function drawCaptcha() {

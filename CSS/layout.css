@@ -1,19 +1,27 @@
 /*This is for positioning and sizing irrespective of media query*/
 header {
   border: 2px solid transparent;
-  height: 30em;
+  height: 20vh;
   padding-bottom: 5%;
 }
 .aboutHeader {
-  height: 30em;
+  height: 20vh;
 }
 #RWDtext {
   background: #4f4f4f;
   font-family: "Montserrat", sans-serif;
   position: relative;
   text-align: center;
-  z-index: 10;
 }
+.open {
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1.5s ease-in 1s, opacity 1.2s;}
+.gone {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 2.5s ease-out 1s, opacity 2.5s;}
 main {
   display: block;
   margin: 0% 1%;
