@@ -1,74 +1,40 @@
 /*This is for positioning and sizing irrespective of media query*/
-header {
-  border: 2px solid transparent;
-  height: 20vh;
-  padding-bottom: 5%;
-}
-.aboutHeader {
-  height: 20vh;
-}
-#RWDtext {
-  background: #4f4f4f;
-  font-family: "Montserrat", sans-serif;
-  position: relative;
+/* arranged alphabetically by: element > id > class and by specificity within each of those */
+footer {
+  height: 8vh;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0vh;
   text-align: center;
-}
-.open {
-  cursor: pointer;
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 1.5s ease-in 1s, opacity 1.2s;}
-.gone {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 2.5s ease-out 1s, opacity 2.5s;}
-main {
-  display: block;
-  margin: 0% 1%;
-}
-.aboutMain{
-  padding-top: 3em;
-}
-main h2 {
-  text-align: center;
+  width: 100vw;
 }
 h4, h6 {
   text-align: justify;
 }
-.get {
-  display: none;
-}
-.aboutMe {
-  margin: auto;
-  width: 60%;
-}
-.imageDescription {
+header {
+  background: url("../assets/fullname.png") fixed;
+  background-attachment: scroll;
+  background-color: #4f4f4f;
+  background-size: 100vw;
+  min-width: 100vw;
   position: absolute;
   top: 0;
-  left: 0;
-  display: inline;
-  font-size: 175%;
-  padding: 0 10px;
 }
-#diagram {
-  width: 600px;
-  height: 600px;
-}
-.container {
-  width: auto;
-  padding: 0.1em;
-}
-.hide {
-  display: none;
-}
-.icon {
-  display: inline-block;
-  margin: 0.5em;
 
+label {
+  float: left;
+  text-align: justify;
+  margin-right: 1.5rem;
+  width: 10rem;
 }
-.more {
-  width: 100%;
-  padding: 2em 0;
+
+main {
+  min-height: 25vh;
+  margin: 0;
+}
+
+main h2 {
+  text-align: center;
 }
 
 #btnrefresh, #txtCaptcha {
@@ -77,6 +43,155 @@ h4, h6 {
   max-width: 20em;
   margin: auto;
 }
+
+#contact-area {
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  width: 20rem;
+}
+
+#contact-area input, #contact-area textarea {
+  width: 30vw;
+}
+
+#diagram {
+  width: 600px;
+  height: 600px;
+}
+
+#RWDtext {
+  background: #4f4f4f;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  text-align: center;
+  height: 20vh;
+  padding-top: 5vh;
+  width: 100vw;
+}
+
+.aboutHeader {
+  height: 20vh;
+}
+
+.aboutMain {
+  height: 35rem;
+  padding-top: 3em;
+}
+
+.aboutMe {
+  margin: auto;
+  width: 60%;
+}
+
+.aboutMe h5 {
+  width: 70vmin;
+  margin: auto;
+}
+
+.aboutMe a h6 {
+  text-align: center;
+}
+
+.aboutMe p {
+  font-family: "Lora";
+  font-size: 2vh;
+}
+
+.band {
+  display: grid;
+  height: 250vmin;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30vmin 50vmin [paragraph] 50vmin 50vmin 30vmin [buttons] 30vmin;
+  justify-items: center;
+}
+
+.band img {
+  grid-column-start: 1;
+  grid-row: 2;
+  height: 50vmin;
+  width: 50vmin;
+}
+
+.band p {
+  margin: 2rem 1.5rem 1rem;
+  grid-column-start: 1;
+  grid-column-end: 2 span;
+  grid-row: paragraph;
+  text-align: left;
+}
+
+.band h3 {
+  align-self: center;
+  font-size: 1.8vh;
+  grid-column: span 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.band.HGVF .HGVFembed {
+  grid-column-start: 1;
+  grid-column-end: 2 end;
+  grid-row: 2;
+}
+
+.band.HGVF .HGVFembed embed {
+  height: 100vmin;
+  width: 100vmin;
+}
+
+.band.HGVF p {
+  align-self: center;
+  grid-column: span 2;
+  grid-row: 4;
+}
+
+.band img {
+  display: block;
+  grid-column: 1 / span 2;
+}
+
+.band.minesweeper {
+  grid-template-rows: 30vmin 50vmin 50vmin 30vmin 30vmin;
+  /* Minesweeper is completely different from the other bands */
+  height: 190vmin;
+  margin: 0 auto;
+}
+
+.band.minesweeper a {
+  margin-left: 10vmin;
+}
+
+.band.minesweeper p {
+  align-self: center;
+  grid-row: 4;
+  padding: 3rem 3rem;
+}
+
+.band.minesweeper embed {
+  grid-column: 1 / span 2;
+  grid-row-start: 1;
+  height: 150vmin;
+  margin: 0 auto;
+}
+
+.band.minesweeper .boxy {
+  grid-column-start: 2;
+  grid-row: 5;
+}
+
+.boxy {
+  border: 0.2rem solid black;
+  display: inline-block;
+  grid-row: buttons;
+  place-self: center;
+  padding: 1rem 1rem;
+}
+
+.boxy h4 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
 .contact__button--container {
   display: flex;
   flex-direction: column;
@@ -84,10 +199,12 @@ h4, h6 {
   padding: 0;
   margin: 0;
 }
+
 .contact__button {
-margin: 1.5em auto;
-height: 7em;
+  margin: 1.5em auto;
+  height: 7em;
 }
+
 .contact__button--container {
   display: flex;
   flex-direction: column;
@@ -95,9 +212,72 @@ height: 7em;
   padding: 0;
   margin: 0;
 }
+
 .contact__button {
-margin: 1.5em auto;
-height: 7em;
+  margin: 1.5em auto;
+  height: 7em;
+}
+
+.container {
+  width: auto;
+  padding: 0.1em;
+}
+
+.gone {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 2.5s ease-out 1s, opacity 2.5s;
+}
+
+.get {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.imageDescription {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline;
+  font-size: 175%;
+  padding: 0 10px;
+}
+
+.more {
+  width: 100%;
+  padding: 2em 0;
+}
+
+.open {
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 1.5s ease-in 1s, opacity 1.2s;
+  transition: visibility 1.5s ease-in 1s, opacity 1.2s;
+}
+
+.panels {
+  flex-direction: column;
+}
+
+.panel.open {
+  font-size: 25px;
+}
+
+.panel.open-active.panel2 > a:nth-of-type(2) {
+  transform: translateY(-10%);
+}
+
+.panel.open-active.panel4 {
+  margin-left: -50px;
 }
 
 .u-visually-hidden {

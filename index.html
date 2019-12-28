@@ -10,7 +10,7 @@
   <link rel='shortcut icon' href='https://www.kmskelton.com/favicon.ico?v=2' />
   <!-- Place favicon.ico in the root directory -->
   <link href="css/base.css" type="text/css" rel="stylesheet" />
-  <link href="css/panels.css" type="text/css" rel="stylesheet" />
+  <link href="css/menu.css" type="text/css" rel="stylesheet" />
   <link href="css/module.css" type="text/css" rel="stylesheet" />
   <link href="css/layout.css" type="text/css" rel="stylesheet" />
   <link href="css/mediaQueries.css" type="text/css" rel="stylesheet" />
@@ -28,26 +28,8 @@
     </h2>
   </header>
   <main>
-    <div class="panels">
-      <!-- whiteboard background: youtube, wordpress -->
-      <div class="panel panel1">
-        <p>Teaching</p>
-        <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="_blank"></a>
-        <p>is</p>
-        <a href="https://kmskelton.wordpress.com/" target="_blank"></a>
-        <p>Learning</p>
+    <!-- <div class="panels">
       </div>
-      <!-- Matrix background: github, repl.it, codepen -->
-      <div class="panel panel2">
-        <p>Experiment</p>
-        <a href="https://github.com/KMSkelton" target="_blank"></a>
-        <p>With</p>
-        <a href="https://codepen.io/KMSkelton/" target="_blank"></a>
-        <a href="https://repl.it/@kmskelton/" target="_blank"></a>
-        <a href="https://www.codewars.com/users/KMSkelton/"></a>
-        <p>Coding</p>
-      </div>
-      <!-- IDE screenshot background: projects pages -->
       <div class="panel panel3">
         <p></p>
         <a href="https://kmskelton.com/projects#SLUVT" target="_blank"></a>
@@ -56,7 +38,64 @@
         <a href="https://kmskelton.com/projects#LFG" target="_blank"></a>
         <p></p>
         <p>Projects</p>
-      </div>
+      </div> -->
+    <!-- ul > menu  li > menuitem-->
+    <nav>
+      <ul>
+        <li id="menu1"> <a href="#">Teaching && Learning</a>
+          <ul class="dropdown">
+            <li>
+              <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="_blank"></a>
+              <img src="./assets/youtube_full_color_dark_logo/digital_and_tv/yt_logo_rgb_dark.png" alt="youtube logo">
+            </li>
+            <li>
+              <a href="https://kmskelton.wordpress.com/" target="_blank"></a>
+              <img class="brighten" src="./assets/WordPress-logotype-standard.png" alt="Wordpress logo">
+            </li>
+          </ul>
+        </li>
+        <li id="menu2"> <a href="#">Experiments with Code</a>
+          <ul class="dropdown">
+            <li>
+                <a href="https://github.com/KMSkelton" target="_blank"></a>
+                <img src="./assets/github-logo.jpg" alt="Github Octocat logo">
+            </li>
+            <li>
+                <a href="https://codepen.io/KMSkelton/" target="_blank"></a>
+                <img class="brighten" src="./assets/codepen-wordmark-display-inside-black@10x.png" alt="Codepen logo">
+            </li>
+            <li>
+              <a href="https://repl.it/@kmskelton/" target="_blank"></a>
+              <img class="repl-it" src="./assets/replit-logo-small-square.jpg" alt="REPL.it logo">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://www.codewars.com/users/KMSkelton/">Codewars</a>
+              <img src="https://www.codewars.com/users/KMSkelton/badges/large" alt="Codewars kyu ranking">
+            </li>  
+          </ul>  
+        </li>
+        <li id="menu3"> <a href="https://kmskelton.com/projects">Projects</a>
+          <ul class="dropdown">
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#SLUVT" target="_blank">Virtual Tours</a>
+              <img src="./assets/sluvt3-screen.jpg" alt="project link south lake union virtual tours">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#kaviar" target="_blank">Kaviar Genome Lookup</a>
+              <img src="./assets/kaviar.jpg" alt="project link kaviar genome lookup">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#gameScoring" target="_blank">Game Scoring app</a>
+              <img src="./assets/scoringApp.jpg" alt="project link game scoring app">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#LFG" target="_blank">Looking for Game</a>
+              <img src="./assets/lfg2-screen.jpg" alt="project link looking for game">
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </main>
   <footer>
     <a href="./contact.html">
@@ -82,6 +121,5 @@
   </footer>
 </body>
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/panels.js"></script>
 
 </html>
