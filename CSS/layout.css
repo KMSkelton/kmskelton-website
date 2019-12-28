@@ -37,6 +37,10 @@ main h2 {
   text-align: center;
 }
 
+section {
+  position: absolute;
+  top: 30vh;
+}
 #btnrefresh, #txtCaptcha {
   display: inline-block;
   line-height: 3em;
@@ -99,10 +103,13 @@ main h2 {
 
 .band {
   display: grid;
-  height: 250vmin;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 30vmin 50vmin [paragraph] 50vmin 50vmin 30vmin [buttons] 30vmin;
+  height: 115vh;
+  grid-template-columns: 30% [mid] 40% 30%;
+  grid-template-rows: 10% 40% 10% [paragraph] 25% [buttons] 15%;
   justify-items: center;
+}
+.band:last-child {
+  margin-bottom: 5vh;
 }
 
 .band img {
@@ -113,75 +120,63 @@ main h2 {
 }
 
 .band p {
-  margin: 2rem 1.5rem 1rem;
-  grid-column-start: 1;
-  grid-column-end: 2 span;
+  grid-column: mid;
   grid-row: paragraph;
-  text-align: left;
+  margin-top: 5vh;
+  text-align: center;
+  word-wrap: normal;
 }
 
 .band h3 {
   align-self: center;
   font-size: 1.8vh;
-  grid-column: span 2;
-  grid-row: 1;
-  text-align: center;
+  grid-column: mid;
 }
 
 .band.HGVF .HGVFembed {
   grid-column-start: 1;
   grid-column-end: 2 end;
-  grid-row: 2;
 }
 
 .band.HGVF .HGVFembed embed {
-  height: 100vmin;
-  width: 100vmin;
+  height: 75vh;
+  width: 75vw;
 }
 
 .band.HGVF p {
   align-self: center;
-  grid-column: span 2;
-  grid-row: 4;
+  grid-column: mid;
+  grid-row: paragraph;
+  margin-top: 20vh;
 }
 
 .band img {
   display: block;
-  grid-column: 1 / span 2;
+  grid-column: mid;
 }
 
 .band.minesweeper {
-  grid-template-rows: 30vmin 50vmin 50vmin 30vmin 30vmin;
-  /* Minesweeper is completely different from the other bands */
-  height: 190vmin;
-  margin: 0 auto;
+  height: 90vh;
 }
-
 .band.minesweeper a {
-  margin-left: 10vmin;
+  margin: 0 auto;
 }
 
 .band.minesweeper p {
   align-self: center;
-  grid-row: 4;
-  padding: 3rem 3rem;
+  grid-column: mid;
+  grid-row: paragraph;
+  text-align: center;
 }
 
 .band.minesweeper embed {
-  grid-column: 1 / span 2;
-  grid-row-start: 1;
-  height: 150vmin;
-  margin: 0 auto;
-}
-
-.band.minesweeper .boxy {
-  grid-column-start: 2;
-  grid-row: 5;
+  grid-column: mid;
+  height: 50vh;
 }
 
 .boxy {
   border: 0.2rem solid black;
-  display: inline-block;
+  display: block;
   grid-row: buttons;
   place-self: center;
   padding: 1rem 1rem;
