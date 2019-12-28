@@ -1,26 +1,21 @@
 li {
 	color: #fff;
   background: #4f4f4f;
-	display: block;
-	float: left;
+  display: inline-block;
+  height: 100%;
+  margin: 0;
 	position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
   width: 33vw;
 }
-li a {
-  margin-left: 5vw;
-  text-decoration: none;
-  font-size: 3vh;
-}
 li img {
+  display: inline-block;
   max-height: 8vh;
   max-width: 10vw;
-  margin-left: 5vw;
+  margin: 0 auto;
+  vertical-align: middle;
 }  
-li a {
-  color: #fff;
-}
 li:hover,
 li:focus-within {
 	background: #d8a436;
@@ -33,6 +28,7 @@ nav {
   font-family: Montserrat sans-serif;
   position: absolute;
   top: 25vh;
+  width: 100vw;
 }
 nav > ul > li:nth-child(2){
   margin: 0 0.2vw;
@@ -41,15 +37,25 @@ ul {
 	list-style: none;
 	padding-left: 0;
 }
+ul li {
+  line-height: 10vh;
+  text-align: center;
+}
+ul > li > a {
+  color: white;
+  height: 6vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
+}
 ul li ul {
-	background: #d8a436;
-	visibility: hidden;
+  display: none;
+	left: 0;
+  min-width: 33vw;
   opacity: 0;
-  min-width: 30vw;
 	position: absolute;
   transition: all 0.5s ease;
-	left: 0;
-  display: none;
+	visibility: hidden;
 }
 ul li:hover > ul,
 ul li:focus-within > ul,
