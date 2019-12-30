@@ -27,7 +27,7 @@ li:focus-within a {
 nav {
   font-family: Montserrat sans-serif;
   position: absolute;
-  top: 25vh;
+  top: 0h;
   width: 100vw;
 }
 nav > ul > li:nth-child(2){
