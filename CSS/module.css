@@ -51,5 +51,8 @@ main {
   visibility: hidden;
 }
 .more {
-  background-color: rgba(100, 100, 100, 0.3);
+  background: #b0b0b0;
+  font-weight: 700;
+  font-size: 2vh;
+  line-height: 2vh;
 }
