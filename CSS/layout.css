@@ -147,7 +147,7 @@ form {
   right: 5vw;
 }
 
-.HGVF-container {
+.HGVF {
   background: lightgray;
   grid-column: first / end;
   grid-row: row-start 5 / row-start 11;
