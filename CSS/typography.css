@@ -1,6 +1,9 @@
 @font-face {
-font-family: 'Montserrat', sans-serif, 'Lora', serif;
+	font-family: 'Montserrat', sans-serif, 'Lora', serif;
+	src:url("https://fonts.googleapis.com/css?family=Montserrat");
+	src:url("https://fonts.googleapis.com/css?family=Lora");
 }
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?cea9jl');
