@@ -2,10 +2,12 @@
   header {
     background: url("../assets/mobile_fullname.png") fixed center no-repeat;
     background-attachment: scroll;
-    background-color: #4f4f4f;
+    background-color: #3D3B3C;
     min-width: 100vw;
   }
-  
+  #RWDtext {
+    min-height: 25vh;
+  }
   .HGVF embed {
     display: none;
   }
