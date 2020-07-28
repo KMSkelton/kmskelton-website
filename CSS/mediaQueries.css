@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px) {
+  header {
+    background: url("../assets/mobile_fullname.png") fixed center no-repeat;
+    background-attachment: scroll;
+    background-color: #4f4f4f;
+    min-width: 100vw;
+  }
+  
+  .HGVF embed {
+    display: none;
+  }
+  .HGVF img {
+    display: block;
+    height: 90vh;
+    margin: 2vh 2vw;
+    width: 95vw;
+    }
+  .scoring img {
+    display: block;
+    height: 60vh;
+    margin: 2vh 2vw;
+    width: 95vw;
+  }
+
+  #menu1, #menu2 {
+    display: none;
+  }
+
+  nav ul, nav li {
+    margin: 0 auto;
+    width: 50vw;
+  }
+}

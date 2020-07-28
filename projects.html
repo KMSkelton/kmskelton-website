@@ -15,7 +15,6 @@
   <link href="css/layout.css" type="text/css" rel="stylesheet" />
   <link href="css/mediaQueries.css" type="text/css" rel="stylesheet" />
   <link href="css/typography.css" type="text/css" rel="stylesheet" />
-
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
@@ -27,42 +26,45 @@
       </div>
     </h2>
   </header>
-  <section>
-    <div class="band minesweeper">
+  <section class="container">
+    <div class="minesweeper">
       <a id="minesweeper"></a>
-      <embed src="https://musing-bose-e13b35.netlify.com" height="30vh">
-      <p>Orc Sweeper is a work in progress. For now, you will need to refresh the page to play another game.</p>
-      <a href="https://github.com/KMSkelton/mineSweeper" class="boxy">
-        <h4>Go To Code</h4>
-      </a>
-    </div>
-    <div class="band HGVF">
-      <a id="HGVF"></a>
-      <h3>Hanalei Group Vacation Finder</h3>
-      <p>
-        Work in progress.
-        <br><br>
-        Hanalei Group Vacation Finder is a React app in the style of AirBnB and topfloor.us.
-      </p>
-      <div class="HGVFembed">
-        <embed src="https://modest-tesla-2d7c35.netlify.com/">
+      <embed class="minesweeper-embed" src="https://musing-bose-e13b35.netlify.com">
+      <p class="refresh">Refresh the page to play another game.</p>
+      <div>
+        <p class="col-four">
+          <a href="https://github.com/KMSkelton/mineSweeper">Go To Code</a>
+        </p>
       </div>
-      <a href="https://modest-tesla-2d7c35.netlify.com/" class="boxy">
-        <h4>To App</h4>
-      </a>
-      <a href="https://github.com/KMSkelton/REACT-hanaleiGroupVacationFinder" class="boxy">
-        <h4>Go To Code</h4>
-      </a>
     </div>
-    <div class="band">
+    <div class="HGVF-container">
+      <div class="HGVF">
+        <h3>Hanalei Group Vacation Finder</h3>
+        <span>
+          <p>
+            Hanalei Group Vacation Finder is a React app in the style of AirBnB and topfloor.us.
+          </p>
+        </span>
+        <div>
+          <embed src="https://modest-tesla-2d7c35.netlify.com/">
+          <img src="assets/HGVF-for-device.png">
+        </div>
+        <p class="col-four">
+          <a href="https://modest-tesla-2d7c35.netlify.com/">To App</a>
+          <a href="https://github.com/KMSkelton/REACT-hanaleiGroupVacationFinder">Go To Code</a>
+        </p>
+      </div>
+    </div>
+    <div class="scoring">
       <a id="gameScoring"></a>
-      <img src="./assets/scoringApp.jpg" />
       <h3>Game Scoring App</h3>
+      <img src="./assets/scoringApp.png" />
       <p>
         I play a lot of tabletop games. Many of these have complicated scoring mechanisms
         such as "if you have this type of card group them into unique sets. Then square the
         number in each set and add the numbers together to find your score". It's easy
         enough to reason about but we'd rather not have to write it down every time.
+<<<<<<< HEAD
         <br><br>
         This is the free web-app version of this project, which will have three or four of the more popular games.
         Later there will be a cheap React Native
@@ -149,13 +151,13 @@
         project for Code Fellows'​ Advanced Front End Development program.
         <br><br>
         Technologies Used: HTML, Sass and Angular.
+=======
       </p>
-      <a href="http://lookingforgame.herokuapp.com" class="boxy">
-        <h4>To App</h4>
-      </a>
-      <a href="https://github.com/KMSkelton/looking-for-game" class="boxy">
-        <h4>Go To Code</h4>
-      </a>
+      <p class="col-four">
+        <a href="https://friendly-mirzakhani-cda499.netlify.com/">To App</a>
+        <a href="https://github.com/KMSkelton/gameScoring">Go To Code</a>
+>>>>>>> july-2020-overhaul
+      </p>
     </div>
   </section>
   <footer>

@@ -19,59 +19,108 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
-
 <body>
   <header id="headerText">
-    <h2>
-      <div id="RWDtext">Front-End</br>Developer</br>
-      </div>
-    </h2>
+    <div id="RWDtext">
+      <h2>
+        Front-End</br>Developer</br>
+      </h2>
+    </div>
   </header>
-  <div class="aboutMain">
-    <p>
-      I am a front-end developer with five years’ experience writing HTML, CSS, SASS, 
-      JavaScript (ES5, ES6), Vue, Node, Express, SQL, PostGIS, React, Mongo, jQuery, REST APIs, Git version control and three.js
-      in production. I have experience with Docker, Kubernetes, and Kaniko for Gitlab CICD. Additionally I've written proof of concept components for file ingestion and transformation
-      using cloudconvert and filestack.  I have also been a teaching assistant for JavaScript (ES5) and Python3. 
-    </p>
-    <p>
-      Technologies in personal projects include: Redux, Typescript, Python3, MySQL, Flask, SQLAlchemy, Django REST Framework among others
-    </p>
-  </div>
-  <div id="contact-area">
-    <h5>
-      I would love to hear from you!
-    </h5>
-    <h6>Please complete the form below, or email me directly: kristopher (at) kmskelton .com</h6>
-    <form id="contact_form" name="contact form" method="post" netlify-honeypot="bot-field" netlify>
-      <p class="u-visually-hidden">
-        <label class="u-visually-hidden">Don't complete this if you're human:
-          <input name="bot-field" /> </label>
-      </p>
-      <label for="Name">Name:</label>
-      <input type="text" name="Name" id="Name" />
-
-      <label for="City">City:</label>
-      <input type="text" name="City" id="City" />
-
-      <label for="Email">Email address:</label>
-      <input type="text" name="Email" id="Email" />
-
-      <input type="text" readonly="readonly" id="txtCaptcha" />
-      <input type="button" id="btnrefresh" value="Refresh Numbers" onclick="drawCaptcha()" />
-      <input type="text" placeholder="Enter numbers as shown above to prove you're not a robot" oninput="check(this)"
-        required id="txtInput" />
-
-      <label for="Message">Message:</label>
-      <br />
-      <textarea name="Message" id="Message" rows="10"></textarea>
-
-      <input type="submit" name="submit" value="Submit" class="submit-button" />
-    </form>
-  </div>
-  <div class="more">
-        <a href="../assets/KMSkelton_SDE.pdf" target="_blank">Download my resume as PDF</a>
-  </div>
+  <main>
+    <nav>
+      <ul>
+        <li id="menu1"> <a href="#">Teaching && Learning</a>
+          <ul class="dropdown">
+            <li>
+              <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="_blank"></a>
+              <img src="./assets/youtube_full_color_dark_logo/digital_and_tv/yt_logo_rgb_dark.png" alt="youtube logo">
+            </li>
+            <li>
+              <a href="https://kmskelton.wordpress.com/" target="_blank"></a>
+              <img class="brighten" src="./assets/WordPress-logotype-standard.png" alt="Wordpress logo">
+            </li>
+          </ul>
+        </li>
+        <li id="menu2"> <a href="#">Experiments with Code</a>
+          <ul class="dropdown">
+            <li>
+                <a href="https://github.com/KMSkelton" target="_blank"></a>
+                <img src="./assets/github-logo.jpg" alt="Github Octocat logo">
+            </li>
+            <li>
+                <a href="https://codepen.io/KMSkelton/" target="_blank"></a>
+                <img class="brighten" src="./assets/codepen-wordmark-display-inside-black@10x.png" alt="Codepen logo">
+            </li>
+            <li>
+              <a href="https://repl.it/@kmskelton/" target="_blank"></a>
+              <img src="./assets/replit-logo-small-square.jpg" alt="REPL.it logo">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://www.codewars.com/users/KMSkelton/">Codewars</a>
+              <img src="https://www.codewars.com/users/KMSkelton/badges/large" alt="Codewars kyu ranking">
+            </li>  
+          </ul>  
+        </li>
+        <li id="menu3"> <a href="https://kmskelton.com/projects">Projects</a>
+          <ul class="dropdown">
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#SLUVT" target="_blank">Virtual Tours</a>
+              <img src="./assets/sluvt3-screen.jpg" alt="project link south lake union virtual tours">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#kaviar" target="_blank">Kaviar Genome Lookup</a>
+              <img src="./assets/kaviar.jpg" alt="project link kaviar genome lookup">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#gameScoring" target="_blank">Game Scoring app</a>
+              <img src="./assets/scoringApp.jpg" alt="project link game scoring app">
+            </li>
+            <li>
+              <a class="menu-small-font" href="https://kmskelton.com/projects#LFG" target="_blank">Looking for Game</a>
+              <img src="./assets/lfg2-screen.jpg" alt="project link looking for game">
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <section class="container">
+    <div id="contact-area">
+      <h4>
+        I would be pleased to hear from you!
+      </h4>
+      <p>Please complete the form below, or email me directly: kristopher (at) kmskelton .com</p>
+      <form id="contact_form" name="contact form" method="post" netlify-honeypot="bot-field" netlify>
+        <p class="u-visually-hidden">
+          <label class="u-visually-hidden">Don't complete this if you're human:
+            <input name="bot-field" /> </label>
+        </p>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" />
+  
+        <label for="City">City:</label>
+        <input type="text" name="City" id="City" />
+  
+        <label for="Email">Email address:</label>
+        <input type="text" name="Email" id="Email" />
+  
+        <input type="button" id="btnrefresh" value="Refresh Numbers" onclick="drawCaptcha()" />
+        <input type="text" readonly="readonly" id="txtCaptcha" />
+        <input type="text" placeholder="Enter numbers as shown above to prove you're not a robot" oninput="check(this)"
+          required id="txtInput" />
+          <br /> <br /> <br />
+  
+        <label for="Message">Message:</label>
+        <textarea name="Message" id="message" rows="10"></textarea>
+  
+        <input type="submit" name="submit" value="Submit" class="submit-button" />
+      </form>
+    </div>    
+    <div class="resume">
+          <a href="../assets/KMSkelton_SDE.pdf" target="_blank">Download my resume as PDF</a>
+    </div>
+  </section>
   <footer>
     <a href="./index.html">
       <span aria-hidden="true" class="icon-home icon">
@@ -94,8 +143,15 @@
       </span>
     </a>
   </footer>
-
 </body>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> july-2020-overhaul
 <script type="text/javascript" src="js/main.js"></script>
 
 </html>
