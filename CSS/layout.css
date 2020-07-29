@@ -129,14 +129,15 @@ form {
 
 .minesweeper-embed {
   grid-column: first / end;
-  height: 65vh;
+  height: 30vh;
   width: 100vw;
 }
 
-.refresh {
-  display: inline;
-  grid-column: 3;
-  justify-self: center;
+.minesweeper-col-four {
+    display: inline-block;
+    font-size: 130%;
+    position: absolute;
+    right: 10vw;  
 }
 
 .col-four {
@@ -144,13 +145,13 @@ form {
   font-size: 130%;
   margin: 5vh 0;
   position: absolute;
-  right: 5vw;
+  right: 10vw;
 }
 
 .HGVF {
   background: lightgray;
   grid-column: first / end;
-  grid-row: row-start 5 / row-start 11;
+  grid-row: row-start 4 / row-start 11;
 }
 .HGVF embed {
   height: 90vh;
@@ -180,8 +181,7 @@ p a {
 }
 
 .scoring {
-  grid-column-start: first;
-  grid-column-end: end;
+  grid-column: first / end;
   grid-row: row-start 11 / row-start 15;
 }
 
@@ -193,6 +193,10 @@ p a {
 
 .scoring p {
   margin: 0 7vw;
+}
+
+.scoring > .col-four {
+  margin: 0;
 }
 
 .gone {
