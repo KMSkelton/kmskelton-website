@@ -124,7 +124,7 @@ form {
   display: inherit;
   grid-column: first / end;
   grid-template-columns: inherit;
-  grid-row: row-start 1 / row-start 4;
+  grid-row: row-start 1 / row-start 5;
 }
 
 .minesweeper-embed {
