@@ -165,6 +165,20 @@ p a {
   margin: 0 0 0 1vw;
 }
 
+.dropdown {
+  display: block;
+}
+.dropdown li {
+  display: block;
+  padding: 0;
+  height: 10vh;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 0;
+}
+
 .scoring {
   grid-column-start: first;
   grid-column-end: end;
