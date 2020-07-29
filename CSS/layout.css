@@ -129,7 +129,7 @@ form {
 
 .minesweeper-embed {
   grid-column: first / end;
-  height: 52vh;
+  height: 30vh;
   width: 100vw;
 }
 
@@ -151,7 +151,7 @@ form {
 .HGVF {
   background: lightgray;
   grid-column: first / end;
-  grid-row: row-start 5 / row-start 11;
+  grid-row: row-start 4 / row-start 11;
 }
 .HGVF embed {
   height: 90vh;
