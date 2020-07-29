@@ -107,8 +107,8 @@ form {
 .container {
   display: grid;
   grid-template-columns: [first] 15% [second] 10% [third] 50% [fourth] 10% [fifth] 15% [end];
-  grid-template-rows: repeat(15, [row-start] 20vh);
-  height: 300vh;
+  grid-template-rows: repeat(13, [row-start] 20vh);
+  height: 260vh;
   margin: 35vh 0vw 15vh;
 }
 
@@ -151,7 +151,7 @@ form {
 .HGVF {
   background: lightgray;
   grid-column: first / end;
-  grid-row: row-start 4 / row-start 11;
+  grid-row: row-start 4 / row-start 10;
 }
 .HGVF embed {
   height: 90vh;
@@ -182,13 +182,13 @@ p a {
 
 .scoring {
   grid-column: first / end;
-  grid-row: row-start 11 / row-start 15;
+  grid-row: row-start 10 / row-start 13;
 }
 
 .scoring img {
   height: 45vh;
   margin: 0 30vw;
-  width: 30vw;
+  width: 45vw;
 }
 
 .scoring p {
