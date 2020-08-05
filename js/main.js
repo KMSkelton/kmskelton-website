@@ -27,11 +27,11 @@ function drawCaptcha() {
   var f = Math.ceil(Math.random() * 9) + '';
   var g = Math.ceil(Math.random() * 9) + '';
   var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' ' + f;
-  document.getElementById("txtCaptcha").value = code
+  document.getElementById("txt-captcha").value = code
 }
 
 (function () {
-  if (document.getElementById("txtCaptcha")) {
+  if (document.getElementById("txt-captcha")) {
     drawCaptcha();
   } else {
     return false;
@@ -45,7 +45,7 @@ function removeSpaces(string) {
 
 // Validate the Entered input aganist the generated security code function
 function check(input) {
-  var cap = removeSpaces(document.getElementById('txtCaptcha').value);
+  var cap = removeSpaces(document.getElementById('txt-captcha').value);
   if (input.value != cap) {
     input.setCustomValidity("This does not match the above. Please Check!");
   } else {
