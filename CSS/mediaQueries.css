@@ -23,13 +23,34 @@
     margin: 2vh 2vw;
     width: 95vw;
   }
-
   #menu1, #menu2 {
     display: none;
   }
-
   nav ul, nav li {
     margin: 0 auto;
     width: 50vw;
+  }
+  #contact-area {
+    grid-column: second / fifth;
+  }
+  #txt-input, #submit {
+    font-size: 80%;
+    grid-column: second / fifth;
+    margin: 0 auto;
+    width: 70vw;
+  }
+  input, #message {
+    width: 70vw;
+  }
+  #btn-refresh {
+    width: 35vw;
+  }
+  #txt-captcha {
+    font-size: 120%;
+    width: 40vw;
+  }
+  .resume {
+    position: fixed;
+    bottom: 10vh;
   }
 }

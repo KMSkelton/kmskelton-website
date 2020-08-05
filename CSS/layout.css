@@ -45,7 +45,7 @@ header {
 }
 
 label {
-  float: left;
+  font-size: 200%;
   text-align: justify;
   margin-right: 1.5rem;
   width: 10rem;
@@ -68,11 +68,11 @@ form {
   padding-top: 5vh;
 }
 
-#btnrefresh, #txtCaptcha {
-  display: inline-block;
-  line-height: 3em;
-  max-width: 20em;
-  margin: auto;
+#txt-captcha {
+  font-size: 140%;
+  line-height: 5vh;
+  max-width: 25vw;
+  margin-right: 1.5vw;
 }
 
 #contact-area {
@@ -80,28 +80,34 @@ form {
   grid-column: third;
   grid-row: 3 / 6;
   height: 50vh;
-  width: 40vw;
+  justify-self: stretch;
 }
 
-#contact-area #btnrefresh {
-  width: 8vw;
-  margin-right: 1.5vw;
+#btn-refresh {
+  display: inline;
+  width: 10vw;
 }
 
-#txtInput {
-  margin-left: 9.8vw;
+#txt-input, .submit-button {
+  display: block;
+  font-size: 100%;
 }
 
-#contact-area input, #contact-area textarea {
+input {
+  display: block;
   height: 5vh;
-  width: 30vw;
+  width: 50vw;
 }
 
-#contact-area #message {
-  height: 15vh;
+#txt-captcha {
+  display: inline-block;
+  width: 20vw;
 }
-.submit-button {
-  margin-left: 9.8vw;
+
+#message {
+  display: block;
+  height: 15vh;
+  width: 50vw;
 }
 
 .container {
@@ -116,7 +122,7 @@ form {
   display: grid;
   grid-template-columns: [first] 15% [second] 10% [third] 50% [fourth] 10% [fifth] 15% [end];
   grid-template-rows: repeat(5, [row-start] 20vh);
-  height: 120vh;
+  height: 150vh;
   margin: 15vh 0vw 20vh;
 }
 
@@ -229,10 +235,11 @@ p a {
 
 .resume {
   background-color: #3D3B3C;
+  bottom: 12vh;
   display: inline-block;
   font-size: 150%;
-  grid-row: 7;
-  height: 5vh;
+  height: 7vh;
+  position: fixed;
   text-align: center;
   width: 100vw;
 }
