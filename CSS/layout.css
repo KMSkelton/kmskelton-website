@@ -113,8 +113,8 @@ input {
 .container {
   display: grid;
   grid-template-columns: [first] 15% [second] 10% [third] 50% [fourth] 10% [fifth] 15% [end];
-  grid-template-rows: repeat(15, [row-start] 20vh);
-  height: 300vh;
+  grid-template-rows: repeat(13, [row-start] 20vh);
+  height: 260vh;
   margin: 35vh 0vw 15vh;
 }
 
@@ -130,19 +130,20 @@ input {
   display: inherit;
   grid-column: first / end;
   grid-template-columns: inherit;
-  grid-row: row-start 1 / row-start 4;
+  grid-row: row-start 1 / row-start 5;
 }
 
 .minesweeper-embed {
   grid-column: first / end;
-  height: 50vh;
+  height: 30vh;
   width: 100vw;
 }
 
-.refresh {
-  display: inline;
-  grid-column: 3;
-  justify-self: center;
+.minesweeper-col-four {
+    display: inline-block;
+    font-size: 130%;
+    position: absolute;
+    right: 10vw;  
 }
 
 .col-four {
@@ -150,13 +151,13 @@ input {
   font-size: 130%;
   margin: 5vh 0;
   position: absolute;
-  right: 5vw;
+  right: 10vw;
 }
 
 .HGVF {
   background: lightgray;
   grid-column: first / end;
-  grid-row: row-start 5 / row-start 11;
+  grid-row: row-start 4 / row-start 10;
 }
 .HGVF embed {
   height: 90vh;
@@ -186,19 +187,22 @@ p a {
 }
 
 .scoring {
-  grid-column-start: first;
-  grid-column-end: end;
-  grid-row: row-start 11 / row-start 15;
+  grid-column: first / end;
+  grid-row: row-start 10 / row-start 13;
 }
 
 .scoring img {
   height: 45vh;
   margin: 0 30vw;
-  width: 30vw;
+  width: 45vw;
 }
 
 .scoring p {
   margin: 0 7vw;
+}
+
+.scoring > .col-four {
+  margin: 0;
 }
 
 .gone {
