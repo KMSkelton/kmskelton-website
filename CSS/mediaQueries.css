@@ -5,6 +5,9 @@
     background-color: #3D3B3C;
     min-width: 100vw;
   }
+  .icon {
+    margin: 0 2vw;
+  }
   #RWDtext {
     min-height: 25vh;
   }
