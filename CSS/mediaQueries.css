@@ -8,6 +8,10 @@
   .icon {
     margin: 0 2vw;
   }
+
+  .container {
+    height: 300vh;
+  }
   #RWDtext {
     min-height: 25vh;
   }
