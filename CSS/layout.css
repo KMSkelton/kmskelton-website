@@ -13,10 +13,6 @@ footer {
   width: 100vw;
 }
 
-footer > a {
-  margin: 0 5vw;
-}
-
 h4, h6 {
   text-align: justify;
 }
@@ -225,7 +221,7 @@ p a {
 
 .icon {
   display: inline-block;
-  margin: 0.5em;
+  margin: 2vh 5vw;
 }
 
 .imageDescription {
