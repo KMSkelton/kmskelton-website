@@ -135,7 +135,7 @@ input {
 
 .minesweeper-embed {
   grid-column: first / end;
-  height: 65vh;
+  height: 50vh;
   width: 100vw;
 }
 
@@ -257,7 +257,9 @@ p a {
   -webkit-transition: visibility 1.5s ease-in 1s, opacity 1.2s;
   transition: visibility 1.5s ease-in 1s, opacity 1.2s;
 }
-
+footer > a {
+  margin: 0 5vw;
+}
 .u-visually-hidden {
   position: absolute;
   left: -9999em;
