@@ -13,6 +13,10 @@ footer {
   width: 100vw;
 }
 
+footer > a {
+  margin: 0 5vw;
+}
+
 h4, h6 {
   text-align: justify;
 }
@@ -235,7 +239,7 @@ p a {
 
 .resume {
   background-color: #3D3B3C;
-  bottom: 12vh;
+  bottom: 8vh;
   display: inline-block;
   font-size: 150%;
   height: 7vh;
@@ -249,6 +253,7 @@ p a {
   background: none;
   color: #D8A437;
   font-size: 125%;
+  line-height: 7vh;
 }
 
 .resume a:hover{
@@ -261,9 +266,7 @@ p a {
   -webkit-transition: visibility 1.5s ease-in 1s, opacity 1.2s;
   transition: visibility 1.5s ease-in 1s, opacity 1.2s;
 }
-footer > a {
-  margin: 0 5vw;
-}
+
 .u-visually-hidden {
   position: absolute;
   left: -9999em;
