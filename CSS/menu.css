@@ -11,7 +11,7 @@ li {
 }
 li img {
   display: inline-block;
-  max-height: 8vh;
+  max-height: 7vh;
   max-width: 10vw;
   margin: 0 auto;
   vertical-align: middle;
@@ -70,5 +70,5 @@ ul li ul:focus {
   filter: brightness(10);
 }
 .menu-small-font {
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
