@@ -21,9 +21,21 @@ import { RouterLink, RouterView } from "vue-router";
             >
           </li>
           <li class="nav-item mx-4">
-            <RouterLink class="nav-link text-dark" to="/teach" @click=""
-              >Teaching and Learning</RouterLink
-            >
+            <div class="dropdown show">
+              <a href="#" class="btn dropdown-toggle" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teaching and Learning</a> 
+                <div class="dropdown-menu">
+                  <div class="dropdown-item">
+                    <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="_blank">
+                      <img src="../assets/yt_logo_rgb_dark.png" alt="youtube logo">
+                    </a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a href="https://kmskelton.wordpress.com/" target="_blank">
+                      <img class="brighten" src="../assets/wordPress-logotype-standard.png" alt="Wordpress logo">
+                    </a>
+                  </div>
+                </div>  
+            </div>
           </li>
           <li class="nav-item mx-4">
             <RouterLink class="nav-link text-dark" to="/experiment" @click=""
@@ -53,4 +65,14 @@ nav {
   width: 100%;
   height: 3em;
 }
+.brighten {
+  filter: brightness(10);
+}
+img {
+  display: inline-block;
+  height: 1em;
+  max-width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+}  
 </style>
