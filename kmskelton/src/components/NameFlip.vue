@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { flipText, unFlipText } from "@/services/main.js"
+import { flipText, unFlipText } from "@/services/flipper.js"
 
 export default {
   name: "NameFlip",
@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 header {
-  background: url("../assets/fullname2.png") fixed center no-repeat;
+  background: url("../assets/fullname.png") fixed center no-repeat;
   background-attachment: scroll;
   background-color: #3D3B3C;
   border: 2px black solid;
@@ -37,6 +37,7 @@ header {
   text-align: center;
   min-width: 100vw;
   height: 5em;
+  padding-top: 1em;
 }
 .open {
   cursor: pointer;

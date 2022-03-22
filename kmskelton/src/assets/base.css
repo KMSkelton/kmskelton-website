@@ -78,11 +78,11 @@ body {
 }
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?cea9jl');
-	src:url('../fonts/icomoon.eot?#iefixcea9jl') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?cea9jl') format('truetype'),
-		url('../fonts/icomoon.woff?cea9jl') format('woff'),
-		url('../fonts/icomoon.svg?cea9jl#icomoon') format('svg');
+	src:url('./src/assets/fonts/icomoon.eot?cea9jl');
+	src:url('./src/assets/fonts/icomoon.eot?#iefixcea9jl') format('embedded-opentype'),
+		url('./src/assets/fonts/icomoon.ttf?cea9jl') format('truetype'),
+		url('./src/assets/fonts/icomoon.woff?cea9jl') format('woff'),
+		url('./src/assets/fonts/icomoon.svg?cea9jl#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -101,27 +101,47 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon {
+  color: #deaf5d;
+  margin: 0 1em;
+}
+.icon:hover {
+  color: #b0b0b0;
+}
+
 .icon-envelop:before {
+  font-family: 'icomoon';
 	content: "\e945";
-  font-size: 275%;
+  font-size: 175%;
+  margin-right: 0.2em;
 }
 .icon-twitter:before {
+  font-family: 'icomoon';
 	content: "\ea91";
-  font-size: 275%;
+  font-size: 175%;
+  margin-right: 0.2em;
 }
 .icon-github4:before {
-	content: "\eab4";
-  font-size: 275%;
+  font-family: 'icomoon';
+	content: "\eab0";
+  font-size: 175%;
+  margin-right: 0.2em;
 }
 .icon-linkedin:before {
-	content: "\eac8";
-  font-size: 275%;
+  font-family: 'icomoon';
+	content: "\eac9";
+  font-size: 175%;
+  margin-right: 0.2em;
 }
 .icon-home:before {
+	font-family: 'icomoon';
     content: "\e900";
-		font-size: 275%;
+		font-size: 175%;
+    margin-right: 0.2em;
 }
 .icon-wordpress:before {
-    content: "\eab6";
-		font-size: 275%;
+  font-family: 'icomoon';
+    content: "\eab4";
+		font-size: 175%;
+    margin-right: 0.2em;
 }

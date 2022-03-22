@@ -8,11 +8,11 @@ import { RouterLink, RouterView } from "vue-router";
     style="--bs-bg-opacity: 0.7"
   >
     <div class="container-fluid">
-      <h3 class="ms-2">
+      <p class="fs-3 m-2">
         <RouterLink class="nav-link text-dark" to="/"
           >KMSkelton.com</RouterLink
         >
-      </h3>
+      </p>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mx-2 mb-lg-0">
           <li class="nav-item mx-4">
@@ -44,12 +44,13 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style scoped>
 li {
-  font-size: 120%;
+  font-size: 160%;
 }
 nav {
-  position: absolute;
-  top: 16vh;
+  font-family: Montserrat;
+  position: fixed;
+  top: 10em;
   width: 100%;
-  height: 5vh;
+  height: 3em;
 }
 </style>
