@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from "vue-router";
           </li>
           <li class="nav-item mx-4">
             <div class="dropdown show">
-              <a href="#" class="btn dropdown-toggle" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teaching and Learning</a> 
+              <a href="#" class="btn btn-lg dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teaching && Learning</a> 
                 <div class="dropdown-menu">
                   <div class="dropdown-item">
                     <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="_blank">
@@ -38,9 +38,37 @@ import { RouterLink, RouterView } from "vue-router";
             </div>
           </li>
           <li class="nav-item mx-4">
-            <RouterLink class="nav-link text-dark" to="/experiment" @click=""
-              >Experiments with Code</RouterLink
-            >
+            <div class="dropdown show">
+              <a href="#" class="btn btn-lg dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experiments with Code</a> 
+                <div class="dropdown-menu">
+                  <div class="dropdown-item">
+                    <a href="https://github.com/KMSkelton" target="_blank">
+                      <img src="../assets/github-logo.jpeg" alt="Github Octocat logo">
+                    </a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a href="https://codepen.io/KMSkelton/" target="_blank">
+                      <img class="brighten" src="../assets/codepen-wordmark-display-inside-black@10x.png" alt="Codepen logo">
+                    </a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a href="https://repl.it/@kmskelton/" target="_blank">
+                      <img style="height: 4em;" src="../assets/replit-logo-small-square.jpeg" alt="REPL.it logo">
+                    </a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a href="https://vizhub.com/KMSkelton" target="_blank">
+                      <img src="../assets/vizhubLogo.png" alt="VizHub logo">
+                    </a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a href="https://www.codewars.com/users/KMSkelton/" target="_blank">
+                      Codewars <br>
+                      <img src="../assets/codewars-large.svg" alt="Codewars kyu ranking">
+                    </a>
+                  </div>
+                </div>  
+            </div>
           </li>
           <li class="nav-item mx-4">
             <RouterLink class="nav-link text-dark" to="/projects" @click=""
@@ -65,14 +93,19 @@ nav {
   width: 100%;
   height: 3em;
 }
+.dropdown-menu {
+  background-color: dimgrey;
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #D8AA4795;
+}
+img {
+  height: 2.2em;
+  width: auto;
+  margin: .5em 0;
+}
 .brighten {
   filter: brightness(10);
 }
-img {
-  display: inline-block;
-  height: 1em;
-  max-width: 100%;
-  margin: 0 auto;
-  vertical-align: middle;
-}  
 </style>
