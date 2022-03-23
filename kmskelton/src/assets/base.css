@@ -61,6 +61,7 @@
 
 body {
   min-height: 100vh;
+  margin-bottom: 5em;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
@@ -145,3 +146,20 @@ body {
 		font-size: 175%;
     margin-right: 0.2em;
 }
+.dropdown-menu {
+  background-color: dimgrey;
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #D8AA4795;
+}
+.brighten {
+  filter: brightness(10);
+}
+a {
+  text-decoration: none;
+}
+span {
+  font-family: Montserrat;
+}
+

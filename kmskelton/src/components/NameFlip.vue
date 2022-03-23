@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 header {
-  background: url("../assets/fullname.png") fixed center no-repeat;
+  background: url("../assets/images/fullname.png") fixed center no-repeat;
   background-attachment: scroll;
   background-color: #3D3B3C;
   border: 2px black solid;

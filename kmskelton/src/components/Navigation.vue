@@ -26,12 +26,12 @@ import { RouterLink, RouterView } from "vue-router";
                 <div class="dropdown-menu">
                   <div class="dropdown-item">
                     <a href="https://www.youtube.com/channel/UCmG1Y2i62_aaKW4mc64UvbQ" target="_blank">
-                      <img src="../assets/yt_logo_rgb_dark.png" alt="youtube logo">
+                      <img src="../assets/images/yt_logo_rgb_dark.png" alt="youtube logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
                     <a href="https://kmskelton.wordpress.com/" target="_blank">
-                      <img class="brighten" src="../assets/wordPress-logotype-standard.png" alt="Wordpress logo">
+                      <img class="brighten" src="../assets/images/wordPress-logotype-standard.png" alt="Wordpress logo">
                     </a>
                   </div>
                 </div>  
@@ -43,28 +43,28 @@ import { RouterLink, RouterView } from "vue-router";
                 <div class="dropdown-menu">
                   <div class="dropdown-item">
                     <a href="https://github.com/KMSkelton" target="_blank">
-                      <img src="../assets/github-logo.jpeg" alt="Github Octocat logo">
+                      <img src="../assets/images/github-logo.jpeg" alt="Github Octocat logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
                     <a href="https://codepen.io/KMSkelton/" target="_blank">
-                      <img class="brighten" src="../assets/codepen-wordmark-display-inside-black@10x.png" alt="Codepen logo">
+                      <img class="brighten" src="../assets/images/codepen-wordmark-display-inside-black@10x.png" alt="Codepen logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
                     <a href="https://repl.it/@kmskelton/" target="_blank">
-                      <img style="height: 4em;" src="../assets/replit-logo-small-square.jpeg" alt="REPL.it logo">
+                      <img style="height: 4em;" src="../assets/images/replit-logo-small-square.jpeg" alt="REPL.it logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
                     <a href="https://vizhub.com/KMSkelton" target="_blank">
-                      <img src="../assets/vizhubLogo.png" alt="VizHub logo">
+                      <img src="../assets/images/vizhubLogo.png" alt="VizHub logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
                     <a href="https://www.codewars.com/users/KMSkelton/" target="_blank">
                       Codewars <br>
-                      <img src="../assets/codewars-large.svg" alt="Codewars kyu ranking">
+                      <img src="../assets/images/codewars-large.svg" alt="Codewars kyu ranking">
                     </a>
                   </div>
                 </div>  
@@ -88,24 +88,14 @@ li {
 }
 nav {
   font-family: Montserrat;
-  position: fixed;
+  position: absolute;
   top: 10em;
   width: 100%;
   height: 3em;
-}
-.dropdown-menu {
-  background-color: dimgrey;
-  text-align: center;
-}
-.dropdown-item:hover {
-  background-color: #D8AA4795;
 }
 img {
   height: 2.2em;
   width: auto;
   margin: .5em 0;
-}
-.brighten {
-  filter: brightness(10);
 }
 </style>
