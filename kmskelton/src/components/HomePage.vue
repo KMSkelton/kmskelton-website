@@ -5,7 +5,7 @@
     <img src="../assets/images/HGVF2.png" class="card-img-top" alt="google map of Hanalei Bay and list of mocked locations">
     <div class="card-body">
       <h5 class="card-title">Hanalei Group Vacation Finder</h5>
-      <p class="card-text">Mapping app for the Hanalei Bay area in React</p>
+      <p class="card-text">Mapping app for the Hanalei Bay area, in React</p>
       <a href="https://kms-hgvf.netlify.app/" class="btn btn-primary" target="_blank">HGVF site</a>
     </div>
   </div>
