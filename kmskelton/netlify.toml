@@ -1,13 +1,8 @@
-# Redirect based on conditions including browser language, 
-# geolocation, identity role, and/or cookie presence.
-  conditions = {Language = ["en"], Country = ["US"]}
-
- 
 # The following redirect is intended for use with most SPAs 
 # that handle routing internally.
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
 
 [[headers]]
@@ -15,7 +10,7 @@
   for = "/*"
 
   [headers.values]
-   Access-Control-Allow-Origin = "*"
+   Access-Control-Allow-Origin = *
 
     # Multi-value headers are expressed with multi-line strings.
   cache-control = '''
