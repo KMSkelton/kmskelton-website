@@ -11,10 +11,3 @@
 
   [headers.values]
    Access-Control-Allow-Origin = '*'
-
-    # Multi-value headers are expressed with multi-line strings.
-  cache-control = '''
-  max-age=0,
-  no-cache,
-  no-store,
-  must-revalidate'''
