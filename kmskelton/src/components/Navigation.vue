@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from "vue-router";
                   </div>
                   <div class="dropdown-item">
                     <a href="https://kmskelton.wordpress.com/" target="_blank">
-                      <img class="brighten" src="../assets/images/wordPress-logotype-standard.png" alt="Wordpress logo">
+                      <img class="brighten" src="../assets/images/wordpress-logotype-standard.png" alt="Wordpress logo">
                     </a>
                   </div>
                 </div>  
