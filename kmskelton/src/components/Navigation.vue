@@ -58,7 +58,7 @@ import { RouterLink, RouterView } from "vue-router";
                   </div>
                   <div class="dropdown-item">
                     <a href="https://vizhub.com/KMSkelton" target="_blank">
-                      <img src="../assets/images/vizhubLogo.png" alt="VizHub logo">
+                      <img src="../assets/images/vizhublogo.png" alt="VizHub logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
