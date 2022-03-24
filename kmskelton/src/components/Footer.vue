@@ -1,10 +1,10 @@
 <template>
   <footer>
-    <a href="./contact.html">
+    <a href="./contact">
         <span aria-hidden="true" class="icon-envelop icon">
           <span class="imageDescription">Contact and Resume</span>
         </span>
-      </a>
+    </a>
       <a href="https://github.com/KMSkelton" target="_blank">
         <span class="icon-github4 icon">
           <span class="imageDescription">Github</span>

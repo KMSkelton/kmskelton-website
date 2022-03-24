@@ -28,7 +28,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .container {
   margin: auto;
   position: relative;

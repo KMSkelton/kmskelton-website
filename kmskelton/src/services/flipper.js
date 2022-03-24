@@ -14,7 +14,7 @@ export const unFlipText = (header, text) => {
 }
 // Generates the captcha function
 
-function drawCaptcha () {
+export function drawCaptcha () {
   var a = Math.ceil(Math.random() * 9) + ''
   var b = Math.ceil(Math.random() * 9) + ''
   var c = Math.ceil(Math.random() * 9) + ''
@@ -22,8 +22,9 @@ function drawCaptcha () {
   var e = Math.ceil(Math.random() * 9) + ''
   var f = Math.ceil(Math.random() * 9) + ''
   var g = Math.ceil(Math.random() * 9) + ''
-  var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' ' + f
+  var code = a + ' ' + b + ' ' + c + ' ' + d + ' ' + e + ' ' + f + ' ' + g
   document.getElementById('txt-captcha').value = code
+  return code
 }
 
 (function () {
@@ -40,12 +41,9 @@ function removeSpaces (string) {
 }
 
 // Validate the Entered input aganist the generated security code function
-function check (input) {
+export function check (input) {
   var cap = removeSpaces(document.getElementById('txt-captcha').value)
-  if (input.value != cap) {
-    input.setCustomValidity('This does not match the above. Please Check!')
-  } else {
-    // input is fine -- reset the error message
-    input.setCustomValidity('')
+  if (input !== cap && input.length === 7) {
+    alert('This does not match the above. Please Check!')
   }
 }
