@@ -10,7 +10,7 @@
   for = "/*"
 
   [headers.values]
-   Access-Control-Allow-Origin = *
+   Access-Control-Allow-Origin = '*'
 
     # Multi-value headers are expressed with multi-line strings.
   cache-control = '''
