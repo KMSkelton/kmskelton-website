@@ -12,6 +12,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/index.html',
+      name: 'sillyNetlify',
+      component: HomeView
+    },
+    {
       path: '/projects',
       name: 'projects',
       component: ProjectPage
