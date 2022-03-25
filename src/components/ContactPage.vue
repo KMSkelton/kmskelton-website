@@ -1,11 +1,7 @@
 <template>
   <div class="container">
     <form id="contact-form" name="contact" method="POST" action="/contact" netlify-honeypot="bot-field" data-netlify="true">
-      <span class="honeypot">
-        <label>Don't complete this if you're human:
-          <input type="hidden" name="form-name" value="contact" /> 
-        </label>
-      </span>
+      <input type="hidden" name="form-name" value="contact" /> 
       <div class="mb-3">
         <label class="form-label">Email address</label>
         <input name="email" type="email" class="form-control" placeholder="name@example.com">
