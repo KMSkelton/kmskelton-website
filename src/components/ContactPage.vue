@@ -28,7 +28,9 @@
       <input v-if="doesMatch" type="submit" id="submit" name="submit" value="Submit" class="btn btn-secondary" />
     </form>
     <div class="resume">
-      <a href="../assets/KMSkelton_Feb2022.pdf" target="_blank">Download my resume as PDF</a>
+      <iframe src="../assets/KMSkelton_Feb2022.pdf"  style="width: 100%; height: 100%; border: none">
+        View my resume as PDF
+      </iframe>
     </div>
   </div>
 </template>
