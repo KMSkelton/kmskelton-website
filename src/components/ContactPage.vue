@@ -28,7 +28,7 @@
       <input v-if="doesMatch" type="submit" id="submit" name="submit" value="Submit" class="btn btn-secondary" />
     </form>
     <div class="resume">
-      <a href="/KMSkelton_Feb2022.pdf" target="_blank">Download my resume as PDF</a>
+      <a href="https://kmskelton.com/KMSkelton_Feb2022.pdf" target="_blank">Download my resume as PDF</a>
     </div>
   </div>
 </template>
