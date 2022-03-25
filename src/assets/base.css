@@ -79,11 +79,11 @@ body {
 }
 @font-face {
 	font-family: 'icomoon';
-	src:url('./src/assets/fonts/icomoon.eot?cea9jl');
-	src:url('./src/assets/fonts/icomoon.eot?#iefixcea9jl') format('embedded-opentype'),
-		url('./src/assets/fonts/icomoon.ttf?cea9jl') format('truetype'),
-		url('./src/assets/fonts/icomoon.woff?cea9jl') format('woff'),
-		url('./src/assets/fonts/icomoon.svg?cea9jl#icomoon') format('svg');
+	src:url('./src/assets/fonts/icomoon.eot');
+	src:url('./src/assets/fonts/icomoon.eot') format('embedded-opentype'),
+		url('./src/assets/fonts/icomoon.ttf') format('truetype'),
+		url('./src/assets/fonts/icomoon.woff') format('woff'),
+		url('./src/assets/fonts/icomoon.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
