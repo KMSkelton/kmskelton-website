@@ -2,7 +2,7 @@
   <footer>
     <a href="./contact">
         <span aria-hidden="true" class="icon-envelop icon">
-          <span>Contact and Resume</span>
+          <span>Contact</span>
         </span>
     </a>
       <a href="https://github.com/KMSkelton" target="_blank">
