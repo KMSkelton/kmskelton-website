@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <form id="contact-form" name="contact" method="POST" action="/contact" netlify-honeypot="bot-field" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" /> 
+    <form id="contact-form" name="contact-form" method="POST" action="/contact" netlify-honeypot="bot-field" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact-form" /> 
       <div class="mb-3">
         <label class="form-label">Email address</label>
         <input name="email" type="email" class="form-control" placeholder="name@example.com">
@@ -16,7 +16,7 @@
       </div>
       <div class="mb-3">
         <label for="textArea" class="form-label">Message:</label>
-        <textarea name="message" class="form-control" id="textArea" rows="3"></textarea>
+        <textarea name="message" type="text" class="form-control" id="textArea" rows="3"></textarea>
       </div>
       <div>
         <input name="drawCaptcha" type="button" id="btn-refresh" value="Refresh Numbers" @click="drawCaptcha()" />
