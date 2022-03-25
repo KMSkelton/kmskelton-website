@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <form id="contact-form" name="contact-form" method="POST" action="/contact" netlify-honeypot="bot-field" data-netlify="true">
+    <form id="contact-form" name="contact-form" method="POST" action="/" netlify-honeypot="bot-field" data-netlify="true">
       <input type="hidden" name="form-name" value="contact-form" /> 
       <div class="mb-3">
         <label class="form-label">Email address</label>
