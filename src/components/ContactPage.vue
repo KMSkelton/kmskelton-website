@@ -3,7 +3,7 @@
     <form id="contact-form" name="contact form" method="POST" netlify-honeypot="bot-field" data-netlify="true" hidden>
       <span class="honeypot">
         <label>Don't complete this if you're human:
-          <input name="bot-field" /> 
+          <input type="hidden" name="form-name" value="contact" /> 
         </label>
       </span>
       <div class="mb-3">
