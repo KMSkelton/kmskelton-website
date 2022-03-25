@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <form id="contact-form" name="contact form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <form id="contact-form" name="contact" method="POST" action="/contact" netlify-honeypot="bot-field" data-netlify="true">
       <span class="honeypot">
         <label>Don't complete this if you're human:
           <input type="hidden" name="form-name" value="contact" /> 
@@ -8,25 +8,25 @@
       </span>
       <div class="mb-3">
         <label class="form-label">Email address</label>
-        <input type="email" class="form-control" placeholder="name@example.com">
+        <input name="email" type="email" class="form-control" placeholder="name@example.com">
       </div>
       <div class="mb-3">
         <label class="form-label">Name</label>
-        <input type="text" class="form-control">
+        <input name="name" type="text" class="form-control">
       </div>
       <div class="mb-3">
         <label class="form-label">City</label>
-        <input type="text" class="form-control">
+        <input name="city" type="text" class="form-control">
       </div>
       <div class="mb-3">
         <label for="textArea" class="form-label">Message:</label>
-        <textarea class="form-control" id="textArea" rows="3"></textarea>
+        <textarea name="message" class="form-control" id="textArea" rows="3"></textarea>
       </div>
       <div>
-        <input type="button" id="btn-refresh" value="Refresh Numbers" @click="drawCaptcha()" />
-        <input type="text" id="txt-captcha" readonly="readonly" value="txtCaptcha" />
+        <input name="drawCaptcha" type="button" id="btn-refresh" value="Refresh Numbers" @click="drawCaptcha()" />
+        <input name="txtCaptcha" type="text" id="txt-captcha" readonly="readonly" value="txtCaptcha" />
       </div>
-      <input autocomplete="off" type="text" id="txt-input" placeholder="Enter numbers as shown above" v-model="textVal" @input="check(textVal)"
+      <input name="textVal" autocomplete="off" type="text" id="txt-input" placeholder="Enter numbers as shown above" v-model="textVal" @input="check(textVal)"
         required /> 
       <br> <br> <br>
       <input v-if="doesMatch" type="submit" id="submit" name="submit" value="Submit" class="btn btn-secondary" />
