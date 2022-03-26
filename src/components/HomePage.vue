@@ -33,6 +33,7 @@
   margin: auto;
   position: relative;
   top: 5em;
+  height: 100%;
 }
 .card {
   margin: 1em 3em;
@@ -48,5 +49,20 @@
 }
 .card-body .btn {
   margin-top: auto;
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    top: 2em;
+    height: 200%;
+    padding-bottom: 5em;
+  }
+  .container h2 {
+    text-align: center;
+  }
+  .card {
+    margin: auto;
+    margin-top: 1em;
+  }
 }
 </style>
