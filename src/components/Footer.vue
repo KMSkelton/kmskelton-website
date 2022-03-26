@@ -31,6 +31,12 @@
     height: 3em;
     padding-top: .5em;
     position: fixed;
-    width: 100vw;
+    width: 100%;
+  }
+  @media (max-width: 767.98px) {
+    footer {
+      font-size: 70%;
+      padding: .5em 2em;
+    }
   }
 </style>
