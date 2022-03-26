@@ -4,16 +4,19 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <nav
-    class="navbar navbar-expand-md bg-secondary"
+    class="navbar navbar-light navbar-expand-md bg-secondary"
     style="--bs-bg-opacity: 0.7"
   >
     <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <p class="fs-3 m-2">
-        <RouterLink class="nav-link text-dark" to="/"
+        <RouterLink class="active nav-link text-dark" to="/"
           >KMSkelton.com</RouterLink
         >
       </p>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav me-auto mx-2 mb-lg-0">
           <li class="nav-item mx-4">
             <RouterLink class="nav-link text-dark" to="/" @click=""
@@ -97,5 +100,16 @@ img {
   height: 2.2em;
   width: auto;
   margin: .5em 0;
+}
+@media (max-width: 767.98px) {
+  .container-fluid {
+    position: absolute;
+    top: -35%;
+    z-index: 10;
+    background-color: #D8AA47;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+  }
 }
 </style>
