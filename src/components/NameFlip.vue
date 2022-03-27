@@ -1,5 +1,8 @@
 <template>
-  <header ref="headerText" @click = "unFlipText">
+  <header ref="headerText" @click="unFlipText">
+    <h1 class="mediaText">
+      KRISTOPHER SKELTON
+    </h1>
     <h2>
       <div ref="RWDtext" id="RWDtext">Front-End<br>Developer<br></div>
     </h2>
@@ -28,8 +31,8 @@ header {
   background-attachment: scroll;
   background-color: #3D3B3C;
   border: 2px black solid;
-  height: 10em;
-  min-width: 100vw;
+  height: auto;
+  width: 100%;
 }
 #RWDtext {
   background: #3D3B3C;
@@ -50,5 +53,26 @@ header {
   visibility: hidden;
   opacity: 0;
   transition: visibility 2.5s ease-out 1s, opacity 2.5s;
+}
+.mediaText {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  header {
+    background: none;
+  }
+  #RWDtext {
+    background-color: #3D3B3C;
+  }
+  .mediaText {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    z-index: -10;
+    font-size: 250%;
+    color: #D8AA47;
+  }
 }
 </style>
