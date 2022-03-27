@@ -84,7 +84,6 @@ import { RouterLink, RouterView } from "vue-router";
   </nav>
   <RouterView />
 </template>
-
 <style scoped>
 li {
   font-size: 160%;

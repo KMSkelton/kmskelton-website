@@ -98,5 +98,12 @@
   position: relative;
   top: 70%;
 }
-
+@media (max-width: 767.98px) {
+  .carousel {
+    width: 80%;
+  }
+  .carousel-item .words {
+    top: 50%;
+  }
+}
 </style>
