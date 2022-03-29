@@ -69,36 +69,8 @@
 </div>
 </template>
 
-<style scoped>
-.carousel {
-  width: 50vw;
-  height: 70vh;
-  margin: auto;
-  position: relative;
-  top: 5em;
-}
-.carousel-inner {
-  position: relative;
-  display: flex;
-  align-content: center;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-}
-.carousel-item img {
-  max-height: 40vh;
-  max-width: 50%;
-  margin-top: 0.5em;
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%)
-}
-.carousel-item .words {
-  position: relative;
-  top: 70%;
-}
-@media (max-width: 767.98px) {
+<style >
+@media (max-width: 699.98px) {
   .carousel {
     width: 80%;
   }

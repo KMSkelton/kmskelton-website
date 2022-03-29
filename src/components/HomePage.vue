@@ -28,34 +28,12 @@
   </div>
 </template>
 
-<style>
-.container {
-  margin: auto;
-  position: relative;
-  top: 5em;
-  height: 100%;
-}
-.card {
-  margin: 1em 3em;
-  background-color: #D8AA4795;
-}
-.card img {
-  height: 30vh;
-  margin-top: 0.5em;
-}
-.card-body {
-  display: flex;
-  flex-direction: column;
-}
-.card-body .btn {
-  margin-top: auto;
-}
+<style scoped>
 
-@media (max-width: 767.98px) {
+@media (max-width: 699.98px) {
   .container {
-    top: 2em;
-    height: 200%;
-    padding-bottom: 5em;
+    position: absolute;
+    bottom: 0;
   }
   .container h2 {
     text-align: center;
