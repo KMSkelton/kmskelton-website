@@ -23,20 +23,11 @@
   </footer>
 </template>
 
-<style>
-  footer {
-    font-size: 120%;
-    background-color: #3D3B3D;
-    bottom: 0;
-    height: 3em;
-    padding-top: .5em;
-    position: fixed;
-    width: 100%;
-  }
-  @media (max-width: 767.98px) {
+<style scoped>
+  @media (max-width: 699.98px) {
     footer {
       font-size: 70%;
-      padding: .5em 2em;
+      padding: .5em 1em;
     }
   }
 </style>

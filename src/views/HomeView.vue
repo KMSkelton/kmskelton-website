@@ -16,9 +16,8 @@ export default {
 
 <style scoped>
 main {
-  height: 100vh;
-  width: 100vw;
+  height: 75vh;
+  width: 100%;
   position: absolute;
-  top: 13em;
 }
 </style>

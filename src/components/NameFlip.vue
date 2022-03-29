@@ -30,7 +30,6 @@ header {
   background: url("../assets/images/fullname.png") fixed center no-repeat;
   background-attachment: scroll;
   background-color: #3D3B3C;
-  border: 2px black solid;
   height: auto;
   width: 100%;
 }
@@ -57,7 +56,7 @@ header {
 .mediaText {
   display: none;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 699.98px) {
   header {
     background: none;
   }

@@ -101,7 +101,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
 .icon {
   color: #deaf5d;
   margin: 0 1em;
@@ -162,4 +161,62 @@ a {
 span {
   font-family: Montserrat;
 }
+.container {
+  margin: auto;
+  position: relative;
+  top:5em;
+  height: 75%;
+}
+.card {
+  margin: 1em 3em;
+  background-color: #D8AA4795;
+}
+.card img {
+  height: 30vh;
+  margin-top: 2em;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card-body .btn {
+  margin-top: auto;
+}
+.carousel {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  top: 5em;
+}
+.carousel-inner {
+  position: relative;
+  display: flex;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.carousel-item img {
+  max-height: 40vh;
+  max-width: 50%;
+  margin-top: 1em;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%)
+}
+.carousel-item .words {
+  position: relative;
+  top: 70%;
+}
+  footer {
+    font-size: 120%;
+    background-color: #3D3B3D;
+    bottom: 0;
+    height: 3em;
+    padding-top: .5em;
+    position: fixed;
+    width: 100%;
+  }
 

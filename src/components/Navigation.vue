@@ -91,7 +91,7 @@ li {
 nav {
   font-family: Montserrat;
   position: absolute;
-  top: 10em;
+  top: 100%;
   width: 100%;
   height: 3em;
 }
@@ -100,7 +100,7 @@ img {
   width: auto;
   margin: .5em 0;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 699.98px) {
   .container-fluid {
     position: absolute;
     top: -35%;
