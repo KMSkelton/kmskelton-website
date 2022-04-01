@@ -45,6 +45,11 @@ import { RouterLink, RouterView } from "vue-router";
               <a href="#" class="btn btn-lg dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experiments with Code</a> 
                 <div class="dropdown-menu">
                   <div class="dropdown-item">
+                    <a href="https://repl.it/@kmskelton/" target="_blank">
+                      <img style="height: 4em;" src="../assets/images/replit-logo-small-square.jpeg" alt="REPL.it logo">
+                    </a>
+                  </div>
+                  <div class="dropdown-item">
                     <a href="https://github.com/KMSkelton" target="_blank">
                       <img src="../assets/images/github-logo.jpeg" alt="Github Octocat logo">
                     </a>
@@ -52,11 +57,6 @@ import { RouterLink, RouterView } from "vue-router";
                   <div class="dropdown-item">
                     <a href="https://codepen.io/KMSkelton/" target="_blank">
                       <img class="brighten" src="../assets/images/codepen-wordmark-display-inside-black@10x.png" alt="Codepen logo">
-                    </a>
-                  </div>
-                  <div class="dropdown-item">
-                    <a href="https://repl.it/@kmskelton/" target="_blank">
-                      <img style="height: 4em;" src="../assets/images/replit-logo-small-square.jpeg" alt="REPL.it logo">
                     </a>
                   </div>
                   <div class="dropdown-item">
