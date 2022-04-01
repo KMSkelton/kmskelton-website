@@ -184,10 +184,9 @@ span {
 }
 .carousel {
   width: 50%;
-  height: 50%;
+  height: 75vh;
   margin: auto;
   position: relative;
-  top: 5em;
 }
 .carousel-inner {
   position: relative;
