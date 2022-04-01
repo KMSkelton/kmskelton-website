@@ -26,7 +26,7 @@
 <style scoped>
   @media (max-width: 699.98px) {
     footer {
-      font-size: 70%;
+      font-size: 60%;
       padding: .5em 1em;
     }
   }

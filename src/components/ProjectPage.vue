@@ -69,7 +69,7 @@
 </div>
 </template>
 
-<style >
+<style scoped>
 @media (max-width: 699.98px) {
   .carousel {
     width: 80%;
