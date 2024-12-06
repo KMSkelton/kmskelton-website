@@ -1,21 +1,2 @@
 # kmskelton
-
-Portfolio site for kmskelton.com. Built in Vue 3 and Bootstrap.
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+The former portfolio for Kristopher Skelton. As I have been working largely in backend development the past several years for NOAA, and there is no way to demonstrate that to the world, I am removing the code from this site. There's no sense in having you, the interested party, think that my coding skill is relegated to demos and small one-page projects; especially if you're here to consider me for employment. 
