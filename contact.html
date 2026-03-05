@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — KMSKELTON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+    <div class="livery-stripe"></div>
+
+    <nav>
+        <a href="index.html" class="nav-logo">KMSKELTON</a>
+        <a href="index.html" class="nav-back">← Back</a>
+    </nav>
+
+    <main class="contact-main">
+        <div class="contact-wrap">
+            <p class="page-eyebrow">Get In Touch</p>
+            <h1 class="page-title">Let's Talk.</h1>
+
+            <form name="contact-form" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact-form">
+                <p hidden><input name="bot-field"></p>
+
+                <div class="two-col">
+                    <div class="field-group">
+                        <label>Name</label>
+                        <input name="name" type="text" required placeholder="Your name">
+                    </div>
+                    <div class="field-group">
+                        <label>Email</label>
+                        <input name="email" type="email" required placeholder="you@example.com">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <label>Message</label>
+                    <textarea name="message" required placeholder="What's on your mind?"></textarea>
+                </div>
+
+                <div class="submit-row">
+                    <button type="submit" class="btn-submit">Send It →</button>
+                    <span class="form-note">No spam. Ever.</span>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="contact-footer">
+        <span>© 2026 KMSKELTON</span>
+        <span>KMSKELTON.COM</span>
+    </footer>
+
+</body>
+
+</html>
